@@ -1,0 +1,1053 @@
+/*Settings for Laptop Screen Size*/
+/*This is a row that often contains a flex-container*/
+.row {
+  /*Setting a 1rem margin between each container*/
+  margin-top: 1rem;
+}
+
+/*Each Block is an a flex-item*/
+.block1 {
+  width: 100%;
+}
+
+.block2 {
+  width: 100%;
+}
+
+.block3 {
+  width: 100%;
+}
+
+.block4 {
+  width: 100%;
+}
+
+.block5 {
+  width: 100%;
+}
+
+/*Container that holds flex-items*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+}
+
+/*Column flex-container*/
+.column {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/*Row flex-container*/
+.horizontal {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+/*Set a margin/spacing for lines*/
+#line-margin-top {
+  margin-top: 1rem;
+}
+
+/*phone menu bar that is not displayed on laptop size screens*/
+#phone {
+  display: none;
+}
+
+/*Styleguide Page Laptop Screen Size*/
+.intro .block1 {
+  /*header banner items*/
+  flex: 1;
+}
+
+.intro .block2 {
+  /*header banner items*/
+  flex: 1.2;
+  z-index: 2;
+}
+
+.intro .block3 {
+  /*header banner items*/
+  flex: 1;
+}
+
+/*About Section*/
+#aboutStyleGuide .block1 {
+  display: flex;
+  align-items: center;
+  flex: 6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+#aboutStyleGuide .block2 {
+  flex: 5;
+  margin-left: 5rem;
+  padding: 2rem 2rem 2rem 0;
+}
+
+/*Color Section*/
+#colorSection .block1 {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#colorSection .block2 {
+  flex: 7;
+  margin-right: 5rem;
+}
+
+/*Typography Section*/
+#typographySection .block1 {
+  flex: 5;
+  margin-left: 5rem;
+}
+
+#typographySection .block2 {
+  flex: 6;
+}
+
+/*Potential Images Section*/
+.imageSection .block1 {
+  flex: 5;
+  margin-left: 5rem;
+}
+
+.imageSection .block2 {
+  flex: 5;
+  margin-right: 5rem;
+}
+
+/*Interactive Elements Section*/
+#interactiveElementsSection {
+  margin-bottom: 0;
+  margin-top: 5rem;
+}
+
+#interactiveElementsSection .block1 {
+  flex: 1;
+}
+
+#interactiveElementsSection .block2 {
+  flex: 2;
+  z-index: 2;
+}
+
+#interactiveElementsSection .block3 {
+  flex: 1;
+}
+
+#interactiveElementsSection .titleBackground {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+/*In-text Link Section*/
+#link .block1 {
+  flex: 6;
+  margin-left: 5rem;
+}
+
+#link .block2 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Navigation Button Section*/
+#navButton .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#navButton .block2 {
+  flex: 6;
+  margin-right: 5rem;
+}
+
+/*Submit/Reset Button Section*/
+#submitButton .block1 {
+  flex: 6;
+  margin-left: 5rem;
+}
+
+#submitButton .block2 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Text input Section*/
+#textInput .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#textInput .block2 {
+  flex: 6;
+  margin-right: 5rem;
+}
+
+/*Radio Button Section*/
+#radioButton .block1 {
+  flex: 7;
+  margin-left: 5rem;
+}
+
+#radioButton .block2 {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Image as a Link Section*/
+#imageLink .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#imageLink .block2 {
+  flex: 6;
+  margin-right: 5rem;
+}
+
+/*text_elements Section*/
+#textElementsSection {
+  margin-top: 5rem;
+  margin-bottom: -5.5rem;
+}
+
+#textElementsSection .block1 {
+  flex: 1;
+}
+
+#textElementsSection .block2 {
+  flex: 8;
+  z-index: 2;
+}
+
+#textElementsSection .block3 {
+  flex: 1;
+}
+
+/*Heading Section*/
+#heading .block1 {
+  flex: 4;
+  margin-left: 5rem;
+}
+
+#heading .block2 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Paragraph Section*/
+#para .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#para .block2 {
+  flex: 6;
+  margin-right: 5rem;
+}
+
+/*Numbered List Section*/
+#numberedList .block1 {
+  flex: 6;
+  margin-left: 5rem;
+}
+
+#numberedList .block2 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Menu bar section*/
+#navBar .block1 {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#navBar .block2 {
+  flex: 4;
+  margin-right: 5rem;
+}
+
+/*End of Styleguide Page*/
+/*for tablet*/
+@media only screen and (max-width:60rem) {
+  #laptop {
+    /*Laptop Size Screen Menu is not displayed for Tablet*/
+    display: none;
+  }
+
+  /*Hamburger Menu*/
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 0.25rem;
+    left: 1rem;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 2rem;
+    height: 1.6rem;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 1002;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle span {
+    display: block;
+    width: 1.65rem;
+    height: 0.2rem;
+    margin-bottom: 0.25rem;
+    position: relative;
+    background: #333333;
+    border-radius: 0.15rem;
+    z-index: 1001;
+    transform-origin: 0.2rem 0;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #FFFFFF;
+  }
+
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu {
+    text-align: center;
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    margin: -3em 0 0 -1em;
+    padding: 3em 0 2em 0;
+    background: #333333;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menu li {
+    padding: 0;
+  }
+
+  #menu li a {
+    display: block;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #menuToggle input:checked~ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+
+  /*Set Tablet Menu to have hamburger Menu*/
+  #phone {
+    width: 100%;
+    position: fixed;
+    display: block;
+    padding: 0.8rem 0;
+    z-index: 1000;
+  }
+
+  /*Hover styling*/
+  #menu li a:hover {
+    padding: 1rem 0;
+    border: 0.1rem solid #f16668;
+    text-decoration: none;
+    color: #f16668;
+  }
+
+  /*general styling for basic elements*/
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 4.5rem;
+  }
+
+  /*Styleguide page Tablet Size*/
+  /*About Section*/
+  #aboutStyleGuide .block1 {
+    margin-left: 2rem;
+    padding: 2rem 2rem 2rem 0;
+    flex: 1;
+  }
+
+  #aboutStyleGuide .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  /*Color Section*/
+  #colorSection .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 2rem 2rem 2rem 0;
+  }
+
+  #colorSection .block2 {
+    flex: 2;
+    margin-right: 2rem;
+  }
+
+  /*Typography Section*/
+  #typographySection .block1 {
+    margin-left: 2rem;
+    flex: 1;
+  }
+
+  #typographySection .block2 {
+    margin-right: 2rem;
+    padding: 0;
+    flex: 1;
+  }
+
+  /*Potential Images Section*/
+  .imageSection .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
+  .imageSection .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  /*Interactive Elements Section*/
+  #interactiveElementsSection {
+    margin-top: 2rem;
+  }
+
+  #interactiveElementsSection .block1 {
+    flex: 1;
+  }
+
+  #interactiveElementsSection .block2 {
+    flex: 2;
+  }
+
+  #interactiveElementsSection .block3 {
+    flex: 1;
+  }
+
+  /*In-text Link Section*/
+  #link .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
+  #link .block2 {
+    flex: 1;
+    margin-right: 2rem;
+    padding: 0 0 0 2rem;
+  }
+
+  /*Navigation Button Section*/
+  #navButton .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
+  #navButton .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  /*Submit/Reset Button Section*/
+  #submitButton .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
+  #submitButton .block2 {
+    flex: 1;
+    padding: 0 0 0 2rem;
+    margin-right: 2rem;
+  }
+
+  /*Text input Section*/
+  #textInput .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
+  #textInput .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  /*Radio Button Section*/
+  #radioButton .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
+  #radioButton .block2 {
+    flex: 1;
+    margin-right: 2rem;
+    padding: 0 0 0 2rem;
+  }
+
+  /*Image as a Link Section*/
+  #imageLink .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
+  #imageLink .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  /*text_elements Section*/
+  #textElementsSection {
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+  }
+
+  #textElementsSection .block1 {
+    flex: 2;
+  }
+
+  #textElementsSection .block2 {
+    flex: 8;
+  }
+
+  #textElementsSection .block3 {
+    flex: 2;
+  }
+
+  /*Heading Section*/
+  #heading .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
+  #heading .block2 {
+    flex: 1;
+    margin-right: 2rem;
+    padding: 0 0 0 2rem;
+  }
+
+  /*Paragraph Section*/
+  #para .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
+  #para .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  /*Numbered List Section*/
+  #numberedList .block1 {
+    flex: 1;
+    margin-left: 2rem
+  }
+
+  #numberedList .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  #combinedElementsSection {
+    margin-top: 2rem;
+  }
+
+  /*Menu bar section*/
+  #navBar .block1 {
+    flex: 1;
+    padding: 0 2rem 0 0;
+  }
+
+  #navBar .block1 .menuBar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  #navBar .block2 {
+    flex: 1 100%;
+    margin: 0 2rem;
+  }
+
+  /*End of Styleguide Page*/
+}
+
+/*for phone*/
+@media only screen and (max-width:45rem) {
+
+  /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
+  /*Laptop Menu display none*/
+  #laptop {
+    display: none;
+  }
+
+  /*Hamburger Menu*/
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 0.25rem;
+    left: 1rem;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 2rem;
+    height: 1.6rem;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 1002;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle span {
+    display: block;
+    width: 1.65rem;
+    height: 0.2rem;
+    margin-bottom: 0.25rem;
+    position: relative;
+    background: #333333;
+    border-radius: 0.15rem;
+    z-index: 1001;
+    transform-origin: 0.2rem 0;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #FFFFFF;
+  }
+
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu {
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    margin: -3em 0 0 -1em;
+    padding: 3em 0 2em 0;
+    background: #333333;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menu li {
+    padding: 0;
+  }
+
+  #menu li a {
+    display: block;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #menuToggle input:checked~ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+
+  /*Display set on for phone menu */
+  #phone {
+    width: 100%;
+    position: fixed;
+    display: block;
+    padding: 0.8rem 0;
+    z-index: 100000;
+  }
+
+  #menu li a:hover {
+    padding: 1rem 0;
+    border: 0.1rem solid #f16668;
+    text-decoration: none;
+    color: #f16668;
+  }
+
+  /*general styling*/
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  label {
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  /*Styleguide page phone size*/
+  /*About Section Style guide*/
+  #aboutStyleGuide .block1 {
+    order: 1;
+    margin-left: 0;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  #aboutStyleGuide .block2 {
+    order: 0;
+    margin-right: 0;
+  }
+
+  /*Color Section*/
+  #colorSection .block1 {
+    padding: 2rem 2rem 0 2rem;
+    margin: 0;
+    order: 1;
+  }
+
+  #colorSection .block2 {
+    order: 0;
+    margin: 0;
+  }
+
+  /*Typography Section*/
+  #typographySection .block1 {
+    order: 0;
+    margin: 0;
+  }
+
+  #typographySection .block2 {
+    order: 1;
+    padding: 2rem 2rem 0 2rem;
+    margin: 0;
+  }
+
+  #typographySection .block2 p {
+    order: 1;
+    padding: 0;
+    margin: 0;
+  }
+
+  /*Potential Images Section*/
+  .imageSection .block1 {
+    order: 1;
+    margin: 0;
+  }
+
+  #potential-img1 {
+    margin-right: 0;
+  }
+
+  #potential-img3 {
+    margin-right: 0;
+  }
+
+  .imageSection .block2 {
+    order: 0;
+    margin: 0 0 1rem 0;
+  }
+
+  /*Interactive Elements Section*/
+  #interactiveElementsSection {
+    margin-top: 0;
+  }
+
+  #interactiveElementsSection .block1 {
+    flex: 1;
+  }
+
+  #interactiveElementsSection .block2 {
+    flex: 2;
+  }
+
+  #interactiveElementsSection .block3 {
+    flex: 1;
+  }
+
+  /*In-text Link Section*/
+  #link .block1 {
+    order: 0;
+    margin: 0;
+  }
+
+  #link .block2 {
+    order: 1;
+    margin: 0;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  /*Navigation Button Section*/
+  #navButton .block1 {
+    padding: 2rem 2rem 0 2rem;
+    margin: 0;
+    order: 2;
+  }
+
+  #navButton .block2 {
+    order: 1;
+  }
+
+  /*Submit/Reset Button Section*/
+  #submitButton .block1 {
+    order: 0;
+    margin: 0;
+  }
+
+  #submitButton .block2 {
+    order: 1;
+    margin: 0;
+    padding: 2rem;
+  }
+
+  /*Text input Section*/
+  #textInput .block1 {
+    padding: 2rem;
+    margin: 0;
+    order: 2;
+  }
+
+  #textInput .block2 {
+    margin: 0;
+    order: 1;
+  }
+
+  /*Radio Button Section*/
+  #radioButton .block1 {
+    margin: 0;
+    order: 0;
+  }
+
+  #radioButton .block2 {
+    margin: 0;
+    padding: 2rem;
+    order: 1;
+  }
+
+  /*Image as a Link Section*/
+  #imageLink .block1 {
+    padding: 2rem;
+    order: 2;
+    margin: 0;
+  }
+
+  #imageLink .block2 {
+    order: 1;
+    margin: 0;
+  }
+
+  /*text_elements Section*/
+  #textElementsSection {
+    margin: 0;
+  }
+
+  #textElementsSection .block1 {
+    flex: 2;
+  }
+
+  #textElementsSection .block2 {
+    flex: 8;
+  }
+
+  #textElementsSection .block3 {
+    flex: 2;
+  }
+
+  /*Heading Section*/
+  #heading .block1 {
+    margin: 0;
+    order: 0;
+  }
+
+  #heading .block2 {
+    margin: 0;
+    padding: 2rem;
+    order: 1;
+  }
+
+  /*Paragraph Section*/
+  #para .block1 {
+    margin: 0;
+    order: 1;
+    padding: 2rem;
+  }
+
+  #para .block2 {
+    margin: 0;
+    order: 0;
+  }
+
+  /*Numbered List Section*/
+  #numberedList .block1 {
+    margin: 0;
+    order: 0;
+  }
+
+  #numberedList .block2 {
+    margin: 0;
+    padding: 2rem;
+    order: 1;
+  }
+
+  /*Menu bar section*/
+  #navBar .block1 {
+    padding: 2rem;
+    margin: 0;
+    order: 2;
+  }
+
+  #navBar .block2 {
+    margin: 0;
+    order: 1;
+  }
+
+  /*End of Styleguide page*/
+  /*Citations Page*/
+  #citations {
+    margin: 2rem;
+  }
+}
