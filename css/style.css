@@ -188,6 +188,8 @@ p {
 
 /*code portion*/
 code {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
   background-color: #ffffff;
   opacity: 0.6;
   padding: 0.5rem;
@@ -459,14 +461,15 @@ footer {
   background-color: #a8cfe5;
 }
 
-.img-noodle {
+.img {
   max-width: 100%;
   transition: 0.5s;
+  overflow: hidden;
   transition: transform 0.5s;
 }
 
 /* create effect when the mouse is hover, change photo size  */
-.img-noodle:hover {
+.img:hover {
   transform: scale(1.1)
 }
 
