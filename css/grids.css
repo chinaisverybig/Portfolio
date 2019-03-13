@@ -59,22 +59,6 @@
 }
 
 /*Styleguide Page Laptop Screen Size*/
-.intro .block1 {
-  /*header banner items*/
-  flex: 1;
-}
-
-.intro .block2 {
-  /*header banner items*/
-  flex: 1.2;
-  z-index: 2;
-}
-
-.intro .block3 {
-  /*header banner items*/
-  flex: 1;
-}
-
 /*About Section*/
 #aboutStyleGuide .block1 {
   display: flex;
