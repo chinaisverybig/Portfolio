@@ -9,6 +9,22 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+/*Importing custom fonts*/
+@font-face {
+  font-family: "Freight Display Pro Black";
+  src: url("css/fonts/Freight Display Pro Black.otf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("css/fonts/Poppins-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "Din Pro Regular";
+  src: url("css/fonts/DINPro-Regular.otf");
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -52,6 +68,12 @@ ul li {
 
 /* set h2 to dark grey color and family to ShrikHand */
 /* letter spacing also creates space between each letter */
+h1 {
+  color: #1E1E1E;
+  font-family: 'Freight Display Pro Black', serif;
+  font-size: 6rem;
+}
+
 h2 {
   color: #333333;
   font-family: 'Shrikhand', cursive;
@@ -738,36 +760,6 @@ footer {
 
 #potential-img4 {
   padding: 0 0 0 0;
-}
-
-.blue {
-  /*Set color of container to blue*/
-  background-color: #a8cfe5;
-  margin: 0;
-}
-
-.pink {
-  /*Set color of container to pink*/
-  background-color: #f16668;
-  margin: 0;
-}
-
-.yellow {
-  /*Set color of container to yellow*/
-  background-color: #f8e38f;
-  margin: 0;
-}
-
-.dark-blue {
-  /*Set color of container to dark blue*/
-  background-color: #42538a;
-  margin: 0;
-}
-
-.rice-white {
-  /*Set color of container to rice white*/
-  background-color: #f8f7f0;
-  margin: 0;
 }
 
 .white {
