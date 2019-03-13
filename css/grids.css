@@ -3,6 +3,7 @@
 .row {
   /*Setting a 1rem margin between each container*/
   margin-top: 1rem;
+  padding: 4rem 4rem 3rem 4rem;
 }
 
 /*Each Block is an a flex-item*/
@@ -59,56 +60,31 @@
 }
 
 /*Styleguide Page Laptop Screen Size*/
-/*About Section*/
-#aboutStyleGuide .block1 {
-  display: flex;
-  align-items: center;
-  flex: 6;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 5rem;
-}
-
-#aboutStyleGuide .block2 {
-  flex: 5;
-  margin-left: 5rem;
-  padding: 2rem 2rem 2rem 0;
-}
-
 /*Color Section*/
 #colorSection .block1 {
   flex: 4;
   display: flex;
   align-items: center;
-  padding-left: 5rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 
 #colorSection .block2 {
   flex: 7;
-  margin-right: 5rem;
 }
 
 /*Typography Section*/
 #typographySection .block1 {
-  flex: 5;
-  margin-left: 5rem;
-}
-
-#typographySection .block2 {
-  flex: 6;
+  flex: 1;
 }
 
 /*Potential Images Section*/
 .imageSection .block1 {
   flex: 5;
-  margin-left: 5rem;
 }
 
 .imageSection .block2 {
+  margin-left: 2rem;
   flex: 5;
-  margin-right: 5rem;
 }
 
 /*Interactive Elements Section*/
