@@ -131,6 +131,10 @@ a {
   margin: 6rem 12rem 0 12rem;
 }
 
+#template-contact {
+  margin: 6rem 12rem 0 12rem;
+}
+
 .heading {
   margin: 5rem 0 2rem 0;
 }
@@ -157,6 +161,10 @@ a {
 /*navigation menu*/
 .menuBar a:hover, .menuBar a:focus {
   text-decoration: none;
+}
+
+.form-label {
+  width: 100%;
 }
 
 /* laptop menu is the bar at the top that shows the list of topics of our webpage */
@@ -240,6 +248,7 @@ footer {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   outline-width: 0;
+  display: block;
   width: 70%;
   clear: both;
   font-size: 0.8rem;
@@ -252,6 +261,26 @@ footer {
   border-radius: 0.75rem;
   padding: 0.5rem;
   outline-width: 0;
+}
+
+.text-area {
+  display: block;
+  font-size: 0.8rem;
+  border: 0.08rem solid #5B5B5B;
+  border-radius: 1rem;
+  padding: 0.8rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  outline-width: 0;
+  width: 70%;
+  min-height: 5rem;
+  resize: vertical;
+  clear: both;
+}
+
+/* text area when it is focused, set border to 0.1 rem and change color */
+.text-area:focus {
+  border: 0.08rem solid #F4976C;
 }
 
 /*This is the styling for the navigation buttons*/
@@ -272,7 +301,7 @@ footer {
   margin-bottom: 1rem;
   font-weight: 300;
   background-color: #F4976C;
-  border: 0.025rem solid #ffffff;
+  border: 0.05rem solid #ffffff;
   border-radius: 5rem;
   color: #ECF1F2;
   padding: 0.75rem 2.5rem;
@@ -286,9 +315,9 @@ footer {
 /* used in cart page and  contact us page for submission button, standard submission class button */
 .button:hover, .button:focus {
   cursor: pointer;
-  background-color: #ECF1F2;
+  background-color: #ffffff00;
   padding: 0.75rem 2.5rem;
-  border: 0.025rem solid #F4976C;
+  border: 0.05rem solid #F4976C;
   border-radius: 5rem;
   color: #F4976C;
   text-align: center;

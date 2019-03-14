@@ -400,11 +400,32 @@
     color: #f16668;
   }
 
+  .text-box[type=text] {
+    width: 100%;
+    clear: both;
+  }
+
+  .text-area {
+    width: 100%;
+  }
+
   .flex-container {
     flex-direction: column;
   }
 
   #styleguide {
+    margin: 4rem 6rem 0 6rem;
+  }
+
+  #template-project {
+    margin: 6rem 6rem 0 6rem;
+  }
+
+  #template-work {
+    margin: 4rem 6rem 0 6rem;
+  }
+
+  #template-contact {
     margin: 4rem 6rem 0 6rem;
   }
 
@@ -615,6 +636,18 @@
   }
 
   #styleguide {
+    margin: 4rem 2rem 0 2rem;
+  }
+
+  #template-project {
+    margin: 6rem 2rem 0 2rem;
+  }
+
+  #template-work {
+    margin: 4rem 2rem 0 2rem;
+  }
+
+  #template-contact {
     margin: 4rem 2rem 0 2rem;
   }
 
