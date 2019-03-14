@@ -190,11 +190,11 @@ a {
 }
 
 .laptopMenu #visit {
-  border-bottom: 0.25rem solid #F4976C;
+  border-bottom: 0.25rem solid #B4DFE5;
 }
 
 .laptopMenu #visit a {
-  color: #F4976C;
+  color: #B4DFE5;
 }
 
 /* hover and focus for laptop menu to make it more interactive and appealing */
@@ -751,13 +751,13 @@ footer {
 
 /* link-nav is made for the 3 navigation pages that are required for marking, citations, styleguide, github. */
 .link-nav {
-  color: #232323;
+  color: #1E1E1E;
   text-decoration: none;
   transition: color 0.5s ease;
 }
 
 .link-nav:hover, .button-nav:focus {
-  color: #f16668;
+  color: #F4976C;
 }
 
 .link {
