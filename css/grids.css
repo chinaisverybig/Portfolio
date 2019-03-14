@@ -190,7 +190,7 @@
 }
 
 #briefSection .block2 {
-  flex: 2;
+  flex: 1;
 }
 
 #descriptionSection .block1 {
@@ -276,6 +276,27 @@
 }
 
 /*End of Work Template*/
+/*Start of About Template -------------------------------------------------------------------------*/
+#aboutMe {
+  flex-direction: row;
+}
+
+#aboutMe .block1 {
+  flex: 2;
+  min-height: 25rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+#aboutMe .block2 {
+  flex: 3;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*End of About Template*/
 /*for tablet*/
 @media only screen and (max-width:55rem) {
   #laptop {
@@ -421,6 +442,10 @@
     margin: 6rem 6rem 0 6rem;
   }
 
+  #template-about {
+    margin: 4rem 6rem 0 6rem;
+  }
+
   #template-work {
     margin: 4rem 6rem 0 6rem;
   }
@@ -505,6 +530,40 @@
   }
 
   /*End of Styleguide Page*/
+  .project .block1 {
+    margin-bottom: 2rem;
+  }
+
+  #roleSection .block2 {
+    margin-left: 0;
+  }
+
+  #processSection .block1 {
+    order: 1;
+  }
+
+  #processSection .block2 {
+    margin-left: 0;
+    order: 0;
+  }
+
+  #descriptionSection .block2 {
+    margin-left: 0;
+  }
+
+  #aboutMe {
+    flex-direction: column;
+  }
+
+  #aboutMe .block1 {
+    flex: 2;
+    margin-bottom: 2rem;
+  }
+
+  #aboutMe .block2 {
+    flex: 3;
+    margin-left: 0;
+  }
 }
 
 /*for phone*/
@@ -641,6 +700,10 @@
 
   #template-project {
     margin: 6rem 2rem 0 2rem;
+  }
+
+  #template-about {
+    margin: 4rem 2rem 0 2rem;
   }
 
   #template-work {
