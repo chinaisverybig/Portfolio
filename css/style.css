@@ -43,12 +43,6 @@ form {
   width: 100%;
 }
 
-a {
-  font-family: 'Poppins Semibold', sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.15rem;
-}
-
 li {
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 0.8rem;
@@ -89,6 +83,7 @@ h2 {
 
 /* h3 header, create margin at the bottom, and set font */
 h3 {
+  clear: both;
   color: #1E1E1E;
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 2rem;
@@ -110,14 +105,29 @@ h4 {
 p {
   clear: both;
   margin-bottom: 1rem;
-  color: #333333;
+  color: #1E1E1E;
   font-family: 'Din Pro Regular', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4rem;
 }
 
-.styleguide {
+a {
+  font-family: 'Poppins Semibold', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+}
+
+#styleguide {
+  margin: 6rem 12rem 0 12rem;
+}
+
+#template-project {
+  margin: 8rem 12rem 0 12rem;
+}
+
+#template-work {
   margin: 6rem 12rem 0 12rem;
 }
 
@@ -205,6 +215,7 @@ footer {
   background-color: #ECF1F2;
   margin: 5rem 0 0 0;
   padding: 3rem 0 0.5rem 1rem;
+  border-radius: 1rem 1rem 0 0;
 }
 
 /*
@@ -261,7 +272,7 @@ footer {
   margin-bottom: 1rem;
   font-weight: 300;
   background-color: #F4976C;
-  border: 0.05rem solid #ffffff00;
+  border: 0.025rem solid #ffffff;
   border-radius: 5rem;
   color: #ECF1F2;
   padding: 0.75rem 2.5rem;
@@ -277,7 +288,7 @@ footer {
   cursor: pointer;
   background-color: #ECF1F2;
   padding: 0.75rem 2.5rem;
-  border: 0.05rem solid #F4976C;
+  border: 0.025rem solid #F4976C;
   border-radius: 5rem;
   color: #F4976C;
   text-align: center;
@@ -536,6 +547,30 @@ footer {
 .white {
   /*Set color of container to white*/
   background-color: #ECF1F2;
+}
+
+.blue {
+  background-color: #d9f8f9;
+}
+
+.aqua {
+  background-color: #B4DFE5;
+}
+
+.yellow {
+  background-color: #FBE8A6;
+}
+
+.orange {
+  background-color: #F4976C;
+}
+
+.inverse-blue {
+  border: solid 0.2rem #d9f8f9;
+}
+
+.inverse-white {
+  border: solid 0.2rem #ECF1F2;
 }
 
 /*Hover Effect on Images*/

@@ -23,6 +23,10 @@
   border-radius: 1rem;
 }
 
+.row-empty {
+  margin-top: 5rem;
+}
+
 /*Each Block is an a flex-item*/
 .block1 {
   width: 100%;
@@ -71,7 +75,7 @@
   margin-top: 1rem;
 }
 
-/*phone menu bar that is not displayed on laptop size screens*/
+/*phone menu bar that is not displayed on laptop size screens */
 #laptop {
   border-radius: 0 0 1rem 1rem;
 }
@@ -80,7 +84,7 @@
   display: none;
 }
 
-/*Styleguide Page Laptop Screen Size*/
+/*Styleguide Page Laptop Screen Size  ----------------------------------------------------------*/
 /*Color Section*/
 #colorSection .block1 {
   flex: 4;
@@ -176,6 +180,102 @@
 }
 
 /*End of Styleguide Page*/
+/*Start of Project Template -------------------------------------------------------------------*/
+#briefSection {
+  flex-direction: row;
+}
+
+#briefSection .block1 {
+  flex: 1;
+}
+
+#briefSection .block2 {
+  flex: 2;
+}
+
+#descriptionSection .block1 {
+  flex: 5;
+  display: flex;
+  align-items: center;
+}
+
+#descriptionSection .block2 {
+  margin-left: 2rem;
+  flex: 6;
+  background-color: black;
+  height: 25rem;
+  border-radius: 1rem;
+}
+
+#processSection .block1 {
+  flex: 6;
+  background-color: black;
+  height: 25rem;
+  border-radius: 1rem;
+}
+
+#processSection .block2 {
+  flex: 5;
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+#roleSection .block1 {
+  flex: 5;
+  display: flex;
+  align-items: center;
+}
+
+#roleSection .block2 {
+  margin-left: 2rem;
+  flex: 6;
+  background-color: black;
+  height: 25rem;
+  border-radius: 1rem;
+}
+
+#reflection {
+  margin-top: 5rem;
+}
+
+/*End of Project Template --------------------------------------------------------------------------*/
+/*Start of Work Template*/
+.project .block1 {
+  flex: 1;
+  background-color: black;
+  border-radius: 1rem;
+  min-height: 20rem;
+  margin-right: 2rem;
+}
+
+.project .block2 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project .block2 p {
+  clear: both;
+  margin-bottom: 1rem;
+  color: #1E1E1E;
+  font-family: 'Din Pro Regular', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.project .block2 h3 {
+  clear: both;
+  color: #1E1E1E;
+  font-family: 'Poppins Semibold', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.4rem
+}
+
+/*End of Work Template*/
 /*for tablet*/
 @media only screen and (max-width:55rem) {
   #laptop {
@@ -304,7 +404,7 @@
     flex-direction: column;
   }
 
-  .styleguide {
+  #styleguide {
     margin: 4rem 6rem 0 6rem;
   }
 
@@ -514,7 +614,7 @@
     color: #f16668;
   }
 
-  .styleguide {
+  #styleguide {
     margin: 4rem 2rem 0 2rem;
   }
 
