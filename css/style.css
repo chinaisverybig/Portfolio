@@ -93,19 +93,11 @@ h3 {
 /* clear:both resets the float (left/right) */
 h4 {
   clear: both;
-  color: #1E1E1E;
+  color: #5B5B5B;
   margin-bottom: 1rem;
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 1.5rem;
   letter-spacing: 0.3rem
-}
-
-h5 {
-  color: #1E1E1E;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  letter-spacing: 0.05rem
 }
 
 /* this is the general paragraph style */
@@ -615,11 +607,6 @@ footer {
 /* up right down left */
 #image-link {
   padding: 2rem 5rem 2rem 2rem;
-}
-
-/*padding for each section*/
-.submit-button {
-  padding: 2rem 2rem 2rem 5rem;
 }
 
 /*padding for each section*/

@@ -93,7 +93,6 @@
   flex: 5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .img-link {
@@ -105,38 +104,16 @@
   margin-left: 2rem;
 }
 
-/*text_elements Section*/
-#textElementsSection {
-  margin-top: 5rem;
-  margin-bottom: -5.5rem;
-}
-
-#textElementsSection .block1 {
-  flex: 1;
-}
-
-#textElementsSection .block2 {
-  flex: 8;
-  z-index: 2;
-}
-
-#textElementsSection .block3 {
-  flex: 1;
-}
-
 /*Heading Section*/
 #heading .block1 {
   flex: 4;
-  margin-left: 5rem;
 }
 
 #heading .block2 {
   flex: 5;
+  margin-left: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 2rem;
-  padding-right: 5rem;
 }
 
 /*Paragraph Section*/
@@ -144,29 +121,22 @@
   flex: 5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 5rem;
-  padding-right: 2rem;
 }
 
 #para .block2 {
+  margin-left: 2rem;
   flex: 6;
-  margin-right: 5rem;
 }
 
 /*Numbered List Section*/
 #numberedList .block1 {
   flex: 6;
-  margin-left: 5rem;
 }
 
 #numberedList .block2 {
   flex: 5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 2rem;
-  padding-right: 5rem;
 }
 
 /*Menu bar section*/
@@ -186,7 +156,7 @@
 
 /*End of Styleguide Page*/
 /*for tablet*/
-@media only screen and (max-width:60rem) {
+@media only screen and (max-width:52rem) {
   #laptop {
     /*Laptop Size Screen Menu is not displayed for Tablet*/
     display: none;
