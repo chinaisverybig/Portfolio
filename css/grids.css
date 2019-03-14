@@ -72,6 +72,10 @@
 }
 
 /*phone menu bar that is not displayed on laptop size screens*/
+#laptop {
+  border-radius: 0 0 1rem 1rem;
+}
+
 #phone {
   display: none;
 }
@@ -281,6 +285,7 @@
   /*Set Tablet Menu to have hamburger Menu*/
   #phone {
     width: 100%;
+    border-radius: 0 0 0.5rem 0.5rem;
     position: fixed;
     display: block;
     padding: 0.8rem 0;
@@ -497,6 +502,7 @@
     width: 100%;
     position: fixed;
     display: block;
+    border-radius: 0 0 0.5rem 0.5rem;
     padding: 0.8rem 0;
     z-index: 100000;
   }
