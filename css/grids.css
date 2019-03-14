@@ -1,4 +1,20 @@
 /*Settings for Laptop Screen Size*/
+/*Importing custom fonts*/
+@font-face {
+  font-family: "Freight Display Pro Black";
+  src: url("css/fonts/Freight Display Pro Black.otf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("css/fonts/Poppins-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "Din Pro Regular";
+  src: url("css/fonts/DINPro-Regular.otf");
+}
+
 /*This is a row that often contains a flex-container*/
 .row {
   /*Setting a 1rem margin between each container*/
@@ -136,6 +152,7 @@
 #numberedList .block2 {
   flex: 5;
   display: flex;
+  margin-left: 2rem;
   flex-direction: column;
 }
 
@@ -156,7 +173,7 @@
 
 /*End of Styleguide Page*/
 /*for tablet*/
-@media only screen and (max-width:52rem) {
+@media only screen and (max-width:55rem) {
   #laptop {
     /*Laptop Size Screen Menu is not displayed for Tablet*/
     display: none;
@@ -249,7 +266,7 @@
     padding: 1rem 0;
     font-size: 1rem;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins Semibold', sans-serif;
     font-weight: 300;
     text-decoration: none;
     text-align: center;
@@ -278,6 +295,22 @@
     color: #f16668;
   }
 
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .styleguide {
+    margin: 4rem 6rem 0 6rem;
+  }
+
+  .heading {
+    margin: 3rem 0 2rem 0;
+  }
+
+  .row {
+    padding: 2rem;
+  }
+
   /*general styling for basic elements*/
   a {
     color: #ffffff;
@@ -293,22 +326,9 @@
   }
 
   /*Styleguide page Tablet Size*/
-  /*About Section*/
-  #aboutStyleGuide .block1 {
-    margin-left: 2rem;
-    padding: 2rem 2rem 2rem 0;
-    flex: 1;
-  }
-
-  #aboutStyleGuide .block2 {
-    flex: 1;
-    margin-right: 2rem;
-  }
-
   /*Color Section*/
   #colorSection .block1 {
     flex: 1;
-    margin-left: 2rem;
     padding: 2rem 2rem 2rem 0;
   }
 
@@ -317,9 +337,12 @@
     margin-right: 2rem;
   }
 
+  #color-palette {
+    padding: 0;
+  }
+
   /*Typography Section*/
   #typographySection .block1 {
-    margin-left: 2rem;
     flex: 1;
   }
 
@@ -332,185 +355,41 @@
   /*Potential Images Section*/
   .imageSection .block1 {
     flex: 1;
-    margin-left: 2rem;
   }
 
   .imageSection .block2 {
     flex: 1;
-    margin-right: 2rem;
-  }
-
-  /*Interactive Elements Section*/
-  #interactiveElementsSection {
-    margin-top: 2rem;
-  }
-
-  #interactiveElementsSection .block1 {
-    flex: 1;
-  }
-
-  #interactiveElementsSection .block2 {
-    flex: 2;
-  }
-
-  #interactiveElementsSection .block3 {
-    flex: 1;
-  }
-
-  /*In-text Link Section*/
-  #link .block1 {
-    flex: 1;
-    margin-left: 2rem;
-  }
-
-  #link .block2 {
-    flex: 1;
-    margin-right: 2rem;
-    padding: 0 0 0 2rem;
-  }
-
-  /*Navigation Button Section*/
-  #navButton .block1 {
-    flex: 1;
-    margin-left: 2rem;
-    padding: 0 2rem 0 0;
-  }
-
-  #navButton .block2 {
-    flex: 1;
-    margin-right: 2rem;
-  }
-
-  /*Submit/Reset Button Section*/
-  #submitButton .block1 {
-    flex: 1;
-    margin-left: 2rem;
-  }
-
-  #submitButton .block2 {
-    flex: 1;
-    padding: 0 0 0 2rem;
-    margin-right: 2rem;
-  }
-
-  /*Text input Section*/
-  #textInput .block1 {
-    flex: 1;
-    margin-left: 2rem;
-    padding: 0 2rem 0 0;
-  }
-
-  #textInput .block2 {
-    flex: 1;
-    margin-right: 2rem;
-  }
-
-  /*Radio Button Section*/
-  #radioButton .block1 {
-    flex: 1;
-    margin-left: 2rem;
-  }
-
-  #radioButton .block2 {
-    flex: 1;
-    margin-right: 2rem;
-    padding: 0 0 0 2rem;
-  }
-
-  /*Image as a Link Section*/
-  #imageLink .block1 {
-    flex: 1;
-    margin-left: 2rem;
-    padding: 0 2rem 0 0;
-  }
-
-  #imageLink .block2 {
-    flex: 1;
-    margin-right: 2rem;
-  }
-
-  /*text_elements Section*/
-  #textElementsSection {
-    margin-top: 2rem;
-    margin-bottom: -4rem;
-  }
-
-  #textElementsSection .block1 {
-    flex: 2;
-  }
-
-  #textElementsSection .block2 {
-    flex: 8;
-  }
-
-  #textElementsSection .block3 {
-    flex: 2;
-  }
-
-  /*Heading Section*/
-  #heading .block1 {
-    flex: 1;
-    margin-left: 2rem;
-  }
-
-  #heading .block2 {
-    flex: 1;
-    margin-right: 2rem;
-    padding: 0 0 0 2rem;
-  }
-
-  /*Paragraph Section*/
-  #para .block1 {
-    flex: 1;
-    margin-left: 2rem;
-    padding: 0 2rem 0 0;
-  }
-
-  #para .block2 {
-    flex: 1;
-    margin-right: 2rem;
-  }
-
-  /*Numbered List Section*/
-  #numberedList .block1 {
-    flex: 1;
-    margin-left: 2rem
+    margin: 0;
   }
 
   #numberedList .block2 {
-    flex: 1;
-    margin-right: 2rem;
+    margin: 0;
   }
 
-  #combinedElementsSection {
-    margin-top: 2rem;
+  #para .block2 {
+    margin: 0;
   }
 
-  /*Menu bar section*/
-  #navBar .block1 {
-    flex: 1;
-    padding: 0 2rem 0 0;
+  #heading .block2 {
+    margin: 0;
   }
 
-  #navBar .block1 .menuBar {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-  }
-
-  #navBar .block2 {
-    flex: 1 100%;
-    margin: 0 2rem;
+  #imageLink .block2 {
+    margin: 0;
   }
 
   /*End of Styleguide Page*/
 }
 
 /*for phone*/
-@media only screen and (max-width:45rem) {
+@media only screen and (max-width:33rem) {
 
   /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
   /*Laptop Menu display none*/
+  .flex-container {
+    flex-direction: column;
+  }
+
   #laptop {
     display: none;
   }
@@ -601,7 +480,7 @@
     padding: 1rem 0;
     font-size: 1rem;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins Semibold', sans-serif;
     font-weight: 300;
     text-decoration: none;
     text-align: center;
@@ -629,6 +508,18 @@
     color: #f16668;
   }
 
+  .styleguide {
+    margin: 4rem 2rem 0 2rem;
+  }
+
+  .heading {
+    margin: 3rem 0 2rem 0;
+  }
+
+  .row {
+    padding: 2rem;
+  }
+
   /*general styling*/
   a {
     color: #ffffff;
@@ -643,8 +534,12 @@
     padding: 0;
   }
 
+  h1 {
+    font-size: 4rem;
+  }
+
   h2 {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 
   h3 {
@@ -655,26 +550,9 @@
     font-size: 1rem;
   }
 
-  h5 {
-    font-size: 1.1rem;
-  }
-
   /*Styleguide page phone size*/
-  /*About Section Style guide*/
-  #aboutStyleGuide .block1 {
-    order: 1;
-    margin-left: 0;
-    padding: 2rem 2rem 0 2rem;
-  }
-
-  #aboutStyleGuide .block2 {
-    order: 0;
-    margin-right: 0;
-  }
-
   /*Color Section*/
   #colorSection .block1 {
-    padding: 2rem 2rem 0 2rem;
     margin: 0;
     order: 1;
   }
@@ -682,6 +560,10 @@
   #colorSection .block2 {
     order: 0;
     margin: 0;
+  }
+
+  #color-palette {
+    padding: 0;
   }
 
   /*Typography Section*/
@@ -692,7 +574,6 @@
 
   #typographySection .block2 {
     order: 1;
-    padding: 2rem 2rem 0 2rem;
     margin: 0;
   }
 
@@ -708,170 +589,25 @@
     margin: 0;
   }
 
-  #potential-img1 {
-    margin-right: 0;
-  }
-
-  #potential-img3 {
-    margin-right: 0;
-  }
-
   .imageSection .block2 {
     order: 0;
-    margin: 0 0 1rem 0;
-  }
-
-  /*Interactive Elements Section*/
-  #interactiveElementsSection {
-    margin-top: 0;
-  }
-
-  #interactiveElementsSection .block1 {
-    flex: 1;
-  }
-
-  #interactiveElementsSection .block2 {
-    flex: 2;
-  }
-
-  #interactiveElementsSection .block3 {
-    flex: 1;
-  }
-
-  /*In-text Link Section*/
-  #link .block1 {
-    order: 0;
     margin: 0;
-  }
-
-  #link .block2 {
-    order: 1;
-    margin: 0;
-    padding: 2rem 2rem 0 2rem;
-  }
-
-  /*Navigation Button Section*/
-  #navButton .block1 {
-    padding: 2rem 2rem 0 2rem;
-    margin: 0;
-    order: 2;
-  }
-
-  #navButton .block2 {
-    order: 1;
-  }
-
-  /*Submit/Reset Button Section*/
-  #submitButton .block1 {
-    order: 0;
-    margin: 0;
-  }
-
-  #submitButton .block2 {
-    order: 1;
-    margin: 0;
-    padding: 2rem;
-  }
-
-  /*Text input Section*/
-  #textInput .block1 {
-    padding: 2rem;
-    margin: 0;
-    order: 2;
-  }
-
-  #textInput .block2 {
-    margin: 0;
-    order: 1;
-  }
-
-  /*Radio Button Section*/
-  #radioButton .block1 {
-    margin: 0;
-    order: 0;
-  }
-
-  #radioButton .block2 {
-    margin: 0;
-    padding: 2rem;
-    order: 1;
-  }
-
-  /*Image as a Link Section*/
-  #imageLink .block1 {
-    padding: 2rem;
-    order: 2;
-    margin: 0;
-  }
-
-  #imageLink .block2 {
-    order: 1;
-    margin: 0;
-  }
-
-  /*text_elements Section*/
-  #textElementsSection {
-    margin: 0;
-  }
-
-  #textElementsSection .block1 {
-    flex: 2;
-  }
-
-  #textElementsSection .block2 {
-    flex: 8;
-  }
-
-  #textElementsSection .block3 {
-    flex: 2;
-  }
-
-  /*Heading Section*/
-  #heading .block1 {
-    margin: 0;
-    order: 0;
-  }
-
-  #heading .block2 {
-    margin: 0;
-    padding: 2rem;
-    order: 1;
-  }
-
-  /*Paragraph Section*/
-  #para .block1 {
-    margin: 0;
-    order: 1;
-    padding: 2rem;
-  }
-
-  #para .block2 {
-    margin: 0;
-    order: 0;
-  }
-
-  /*Numbered List Section*/
-  #numberedList .block1 {
-    margin: 0;
-    order: 0;
   }
 
   #numberedList .block2 {
     margin: 0;
-    padding: 2rem;
-    order: 1;
   }
 
-  /*Menu bar section*/
-  #navBar .block1 {
-    padding: 2rem;
+  #para .block2 {
     margin: 0;
-    order: 2;
   }
 
-  #navBar .block2 {
+  #heading .block2 {
     margin: 0;
-    order: 1;
+  }
+
+  #imageLink .block2 {
+    margin: 0;
   }
 
   /*End of Styleguide page*/

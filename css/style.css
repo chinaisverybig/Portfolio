@@ -32,17 +32,10 @@ button:focus {
   outline: none;
 }
 
-/* sets body text to font Lato and gives it font size of 16 */
+/* sets body text to font and gives it font size of 16 */
 body {
   font-size: 16px;
   flex-direction: column;
-}
-
-/* iframe is used to implement the google map on contact us page */
-iframe {
-  width: 100%;
-  height: 25rem;
-  border: 0;
 }
 
 form {
@@ -50,11 +43,25 @@ form {
   width: 100%;
 }
 
+a {
+  font-family: 'Poppins Semibold', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+}
+
+li {
+  font-family: 'Poppins Semibold', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  color: #1E1E1E;
+}
+
 /* set default labes to this size,font and color  */
 label {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.2rem;
-  color: #333333
+  font-family: 'Din Pro Regular', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  color: #1E1E1E;
 }
 
 ul {
@@ -65,7 +72,6 @@ ul li {
   height: 100%;
 }
 
-/* set h2 to dark grey color and family to ShrikHand */
 /* letter spacing also creates space between each letter */
 h1 {
   color: #1E1E1E;
@@ -81,7 +87,7 @@ h2 {
   letter-spacing: 0.25rem;
 }
 
-/* h3 header, create margin at the bottom, and set font to Lato */
+/* h3 header, create margin at the bottom, and set font */
 h3 {
   color: #1E1E1E;
   font-family: 'Poppins Semibold', sans-serif;
@@ -124,7 +130,6 @@ p {
   padding: 0;
   width: 100%;
   background-color: #ffffffdd;
-  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -147,6 +152,7 @@ p {
 /* laptop menu is the bar at the top that shows the list of topics of our webpage */
 .laptopMenu {
   margin: 0;
+  padding: 0;
   list-style: none;
   text-align: center;
   list-style-type: none;
@@ -162,16 +168,16 @@ p {
 }
 
 .laptopMenu #visit {
-  border-bottom: 0.25rem solid #f16668;
+  border-bottom: 0.25rem solid #F4976C;
 }
 
 .laptopMenu #visit a {
-  color: #f16668;
+  color: #F4976C;
 }
 
 /* hover and focus for laptop menu to make it more interactive and appealing */
 .laptopMenu li:hover, .laptopMenu li:focus {
-  border-bottom: 0.25rem solid #f16668;
+  border-bottom: 0.25rem solid #F4976C;
 }
 
 .laptopMenu a {
@@ -196,8 +202,8 @@ img {
 
 /* up right down left for padding */
 footer {
-  background-color: #f8f7f0;
-  margin: 1rem 0 0 0;
+  background-color: #ECF1F2;
+  margin: 5rem 0 0 0;
   padding: 3rem 0 0.5rem 1rem;
 }
 
@@ -217,90 +223,47 @@ footer {
 
 /*input text-box styling*/
 .text-box[type=text] {
-  border: 0.1rem solid #666666;
-  border-radius: 1.5rem;
-  padding: 0.8rem 0.5rem;
+  border: 0.08rem solid #5B5B5B;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   outline-width: 0;
   width: 70%;
   clear: both;
-  font-size: 1.20em;
+  font-size: 0.8rem;
 }
 
 /*input text-box styling*/
 .text-box[type=text]:focus {
   width: 70%;
-  border: 0.1rem solid #f16668;
-  border-radius: 1.5rem;
-  padding: 0.8rem 0.5rem;
+  border: 0.08rem solid #F4976C;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
   outline-width: 0;
-}
-
-/* input box for contact us page on focus */
-.contact-text-box[type=text]:focus {
-  border: 0.1rem solid #f16668;
-  border-radius: 1.5rem;
-  padding: 0.8rem 0.5rem;
-  outline-width: 0;
-  width: 100%;
-}
-
-/* input fields for contact us page */
-.contact-text-box[type=text] {
-  border: 0.1rem solid #666666;
-  border-radius: 1.5rem;
-  padding: 0.8rem 0.5rem;
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
-  outline-width: 0;
-  clear: both;
-  font-size: 1em;
-  width: 100%;
-}
-
-/* text area  */
-.contact-textarea {
-  font-size: 1em;
-  border: 0.1rem solid #666666;
-  border-radius: 1.5rem;
-  padding: 0.8rem 0.5rem;
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
-  outline-width: 0;
-  width: 100%;
-  height: 10rem;
-  resize: vertical;
-  clear: both;
-}
-
-/* text area when it is focused, set border to 0.1 rem and change color */
-.contact-textarea:focus {
-  border: 0.1rem solid #f16668;
 }
 
 /*This is the styling for the navigation buttons*/
 .button-nav {
   padding: 1.75rem 2rem 1rem 2rem;
-  color: #232323;
+  color: #1E1E1E;
   text-decoration: none;
   transition: color 0.5s ease;
 }
 
 /*This is the styling for the navigation buttons*/
 .button-nav:hover, .button-nav:focus {
-  color: #f16668;
+  color: #F4976C;
 }
 
 /*This is the styling for buttons*/
 .button {
   margin-bottom: 1rem;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
-  background-color: white;
-  border: 0.05rem solid #f16668;
+  background-color: #F4976C;
+  border: 0.05rem solid #ffffff00;
   border-radius: 5rem;
-  color: #f16668;
+  color: #ECF1F2;
   padding: 0.75rem 2.5rem;
   text-align: center;
   text-decoration: none;
@@ -312,11 +275,11 @@ footer {
 /* used in cart page and  contact us page for submission button, standard submission class button */
 .button:hover, .button:focus {
   cursor: pointer;
-  background-color: #f16668;
+  background-color: #ECF1F2;
   padding: 0.75rem 2.5rem;
-  border: 0.05rem solid white;
+  border: 0.05rem solid #F4976C;
   border-radius: 5rem;
-  color: white;
+  color: #F4976C;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -324,13 +287,11 @@ footer {
 
 /* this is the styling for the remove buttons in cart */
 .remove_button {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  background-color: white;
-  border: 0.05rem solid #333333;
-  border-radius: 4rem;
-  color: #333333;
-  padding: 0.5rem 1.5rem;
+  background-color: #B4DFE5;
+  border: 0.05rem solid #ffffff00;
+  border-radius: 5rem;
+  color: #ECF1F2;
+  padding: 0.75rem 2.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -340,22 +301,14 @@ footer {
 
 /* hovering and clicking remove button on cart page */
 .remove_button:hover, .remove_button:focus {
-  background-color: lightgrey;
-  padding: 0.5rem 1.5rem;
-  border: 0.05rem solid #ffffff;
-  border-radius: 4rem;
-  color: white;
+  background-color: #ffffff00;
+  padding: 0.75rem 2.5rem;
+  border: 0.05rem solid #B4DFE5;
+  border-radius: 5rem;
+  color: #B4DFE5;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-}
-
-/* text styling  */
-.order_summary {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.15rem;
-  margin-top: 0;
-  margin-bottom: 0.4em;
 }
 
 /*This is part of the styling for the radio button*/
@@ -366,7 +319,7 @@ footer {
   padding-left: 2rem;
   padding-bottom: 0.5rem;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -403,7 +356,7 @@ footer {
 
 /*This is part of the styling for the radio button*/
 .radio-label input:checked~.checkmark {
-  background-color: #f16668;
+  background-color: #FBE8A6;
 }
 
 /*This is part of the styling for the radio button*/
@@ -430,9 +383,6 @@ footer {
 
 /*I referenced from w3school to style the radio button https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio*/
 /*image margins for title*/
-/* .product-img-background {
-  background-color: #f8f7f0;
-} */
 .shadow {
   transition: 1.5s;
 }
@@ -440,17 +390,6 @@ footer {
 /* make shadow for each product in product page  */
 .shadow:hover {
   box-shadow: 0.01rem 0.01rem 0.02rem #333333;
-}
-
-.titleBackground {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 80%;
-}
-
-.checkout-img-background {
-  background-color: #a8cfe5;
 }
 
 .img {
@@ -465,14 +404,6 @@ footer {
   transform: scale(1.1)
 }
 
-/*Title screen at the beginning row/container */
-.title-screen {
-  width: 100%;
-  z-index: 3;
-  position: relative;
-  text-align: left;
-}
-
 /*placing the title at the center of the container*/
 .title {
   text-align: center;
@@ -481,12 +412,6 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.payment-panel {
-  padding-top: 4rem;
-  position: relative;
-  text-align: center;
 }
 
 /*floats images and text to left or right*/
@@ -581,12 +506,6 @@ footer {
 .middle-text {
   clear: both;
   text-align: center;
-}
-
-.text-display {
-  clear: both;
-  display: inline-block;
-  padding-bottom: 5rem;
 }
 
 /*padding for each section*/
@@ -703,7 +622,7 @@ footer {
 
 .overlay a {
   color: #333333;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Freight Display Pro Black', serif;
   font-size: 2rem;
   letter-spacing: 0.2rem
 }
@@ -715,23 +634,6 @@ footer {
   top: 6rem;
   left: 1rem;
   cursor: pointer;
-}
-
-/* when not hovered it shows black, when hovered the search icon shows pink */
-a:hover .search_black, a:focus .search_black {
-  display: none;
-}
-
-a:hover .search_pink, a:focus .search_pink {
-  display: inline;
-}
-
-a:hover .cart_icon_black, a:focus .cart_icon_black {
-  display: none;
-}
-
-a:hover .cart_icon_pink, a:focus .cart_icon_pink {
-  display: inline;
 }
 
 #citations {
@@ -788,6 +690,16 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
 
 .link-nav:hover, .button-nav:focus {
   color: #f16668;
+}
+
+.link {
+  text-decoration: none;
+  color: #F4976C;
+  transition: color 0.5s ease;
+}
+
+.link:hover {
+  color: #FBE8A6;
 }
 
 /* social media is used for links that have Facebook, Twitter, Instagram and to decorate them with hover and focus  */

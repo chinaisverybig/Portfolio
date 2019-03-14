@@ -36,11 +36,10 @@
   </nav>
 
   <div class="styleguide">
-    <header id="branding">
-
+    <header>
       <div class="flex-container" id="aboutStyleGuide">
         <div class="block2" id="aboutCompany">
-          <h1 class="black-text left-side">Hi, I'm Terence!</h1>
+          <h1>Hi, I'm Terence!</h1>
           <div class="black-line left-side">
           </div>
         </div>
@@ -56,7 +55,7 @@
       </div>
     </header>
 
-    <div class="heading">
+    <div class="heading" id="branding">
       <h2> branding</h2>
       <div class="black-line"></div>
     </div>
@@ -130,7 +129,7 @@
       <h4>sample code</h4>
       <code>&lt;a href="#" class="button"&gt;See more&lt;/a&gt;</code>
       <h4> rendered element</h4>
-      <a href="#" class="button"> See more</a>
+      <a href="#" class="link"> See more</a>
     </div>
 
     <!-- Default Button styling div -->
@@ -143,7 +142,7 @@
       <h4>rendered element</h4>
       <ul class="laptopMenu">
         <li>
-          <a class="button-nav right-side" href="#">Navigation Button</a>
+          <a class="button-nav" href="#">Navigation Button</a>
         </li>
       </ul>
     </div>
@@ -167,11 +166,11 @@
       <p>.form-label</p>
       <p>#form-input</p>
       <h4>sample code</h4>
-      <code>&lt;label for ="form-type" class="form-label"&gt;Ramen Brand&lt;/label&gt;</code>
-      <code>&lt;input id ="form-input" type="text" placeholder = "i.e. Indomie, Nong Shim, etc."&gt;</code>
+      <code>&lt;label for ="form-type" class="form-label"&gt;e-mail&lt;/label&gt;</code>
+      <code>&lt;input id ="form-input" type="text" placeholder = "i.e. john_smith@gmail.com, etc."&gt;</code>
       <h4>rendered element</h4>
-      <label for="form-input" class="form-label"> Ramen Brand </label>
-      <input type="text" id="form-input" class="text-box" placeholder="i.e. Indomie, Shin Ramyun, etc.">
+      <label for="form-input" class="form-label"> e-mail </label>
+      <input type="text" id="form-input" class="text-box" placeholder="i.e. john_smith@gmail.com, etc.">
     </div>
 
     <div class="row white">
@@ -180,20 +179,20 @@
       <p>.radio-label</p>
       <p>.button-radio</p>
       <h4>sample code</h4>
-      <code>&lt;label for ="not-spicy" class="label-radio"&gt;Not Spicy&lt;input type="radio" name="spicy-level" id ="not-spicy" class="button-radio" value = "not-spicy"&gt;&lt;span class="checkmark"&gt;&lt;/span&gt;&lt;/label&gt;</code>
-      <code>&lt;label for ="mild" class="label-radio"&gt;Mild&lt;input type="radio" name="spicy-level" id ="mild" class="button-radio" value = "mild"&gt;&lt;span class="checkmark"&gt;&lt;/span&gt;&lt;/label&gt;</code>
-      <code>&lt;label for ="super-spicy" class="label-radio"&gt;Super Spicy&lt;input type="radio" name="spicy-level" id ="super-spicy" class="button-radio" value = "super-spicy"&gt;&lt;span class="checkmark"&gt;&lt;/span&gt;&lt;/label&gt;</code>
+      <code>&lt;label for ="facebook" class="label-radio"&gt;Facebook&lt;input type="radio" name="where-to-find-me" id ="facebook" class="button-radio" value = "Facebook"&gt;&lt;span class="checkmark"&gt;&lt;/span&gt;&lt;/label&gt;</code>
+      <code>&lt;label for ="linkedIn" class="label-radio"&gt;LinkedIn&lt;input type="radio" name="where-to-find-me" id ="linkedIn" class="button-radio" value = "LinkedIn"&gt;&lt;span class="checkmark"&gt;&lt;/span&gt;&lt;/label&gt;</code>
+      <code>&lt;label for ="instagram" class="label-radio"&gt;Instagram&lt;input type="radio" name="where-to-find-me" id ="instagram" class="button-radio" value = "Instagram"&gt;&lt;span class="checkmark"&gt;&lt;/span&gt;&lt;/label&gt;</code>
       <h4>rendered element</h4>
-      <label for="not-spicy" class="radio-label">Not Spicy
-        <input type="radio" name="spicy-level" id="not-spicy" class="button-radio" value="not-spicy">
+      <label for="facebook" class="radio-label">Facebook
+        <input type="radio" name="where-to-find-me" id="facebook" class="button-radio" value="Facebook">
         <span class="checkmark"></span>
       </label>
-      <label for="mild" class="radio-label">Mild
-        <input type="radio" name="spicy-level" id="mild" class="button-radio" value="mild">
+      <label for="linkedIn" class="radio-label">LinkedIn
+        <input type="radio" name="where-to-find-me" id="linkedIn" class="button-radio" value="LinkedIn">
         <span class="checkmark"></span>
       </label>
-      <label for="super-spicy" class="radio-label">Super Spicy
-        <input type="radio" name="spicy-level" id="super-spicy" class="button-radio" value="super-spicy">
+      <label for="instagram" class="radio-label">Instagram
+        <input type="radio" name="where-to-find-me" id="instagram" class="button-radio" value="Instagram">
         <span class="checkmark"></span>
       </label>
     </div>
@@ -253,21 +252,16 @@
       <div class="flex-container" id="para">
         <div class="block1">
           <h4>rendered element</h4>
-          <p> Instant noodles are a noodle dish, sold in a precooked and dried noodle block, with flavoring powder and/or seasoning oil. The flavoring is usually in a separate packet, although in the case of cup noodles the
-            flavoring is often loose
-            in
-            the cup. Some instant noodle products are seal packed; these can be reheated or eaten straight from the packet/container. Dried noodle blocks are designed to be cooked or soaked in boiling water before eating, but can be consumed dry.
+          <p>This project is an interactive toy aimed at helping children learn basic mathematics, by inserting numbers into its respective slots. The toy uses force sensors to detect when a number has been inserted into the slot, a proximity sensor
+            to turn on/off the toy when someone is within 40cm, and touch sensors to allow users to select the level of difficulty.
           </p>
         </div>
         <div class="block2">
           <h4>css selector</h4>
           <p>p</p>
           <h4>sample code</h4>
-          <code>&lt;p&gt;Instant noodles are a noodle dish, sold in a precooked and dried noodle block, with flavoring powder and/or seasoning oil. The flavoring is usually in a separate packet, although in the case of cup noodles the flavoring
-            is often loose in the cup. Some instant noodle products are seal packed; these can be reheated or eaten straight from the packet/container. Dried noodle blocks are designed to be cooked or soaked in boiling water before eating, but
-            can
-            be consumed
-            dry.&lt;/p&gt;</code>
+          <code>&lt;p&gt;This project is an interactive toy aimed at helping children learn basic mathematics, by inserting numbers into its respective slots. The toy uses force sensors to detect when a number has been inserted into the slot, a
+            proximity sensor to turn on/off the toy when someone is within 40cm, and touch sensors to allow users to select the level of difficulty.&lt;/p&gt;</code>
         </div>
       </div>
     </div>
@@ -281,62 +275,42 @@
           <h4>sample code</h4>
           <div>
             <code>&lt;ol&gt;</code>
-            <code>&lt;li&gt;Mi Goreng&lt;/li&gt;</code>
-            <code>&lt;li&gt;Shin Ramyun&lt;/li&gt;</code>
-            <code>&lt;li&gt;Chu Qian Yi Ding&lt;/li&gt;</code>
+            <code>&lt;li&gt;Web Development&lt;/li&gt;</code>
+            <code>&lt;li&gt;Mobile App Development&lt;/li&gt;</code>
+            <code>&lt;li&gt;Interactive Application&lt;/li&gt;</code>
             <code>&lt;/ol&gt;</code>
           </div>
         </div>
         <div class="block2">
           <h4>rendered element</h4>
           <ol>
-            <li>Mi Goreng</li>
-            <li>Shin Ramyun</li>
-            <li>Chu Qian Yi Ding</li>
+            <li>Web Development</li>
+            <li>Mobile App Development</li>
+            <li>Interactive Application</li>
           </ol>
         </div>
       </div>
     </div>
-    <!--I referenced from https://www.w3schools.com/html/html_lists.asp-->
-    <!-- // TEXT ELEMENTS div -->
 
-    <!-- COMBINED ELEMENTS div // -->
-    <div id="combined_elements">
-      <div id="combinedElementsSection">
-        <div class="row">
-          <div class="title-screen title-section">
-            <div class="block1">
-              <img src="img/collegeStudent.png" alt="college student eating instant noodles" class="eating-img">
-            </div>
-            <h2 class="title-screen title">Combined Elements</h2>
-          </div>
-        </div>
-      </div>
 
-      <div class="row white">
-        <div class="flex-container" id="navBar">
-          <div class="block1">
-            <h4 class="middle-text">rendered element</h4>
-            <div class="menuBar">
-              <a class="button-nav" href="#">Home</a>
-              <a class="button-nav" href="#">Trending</a>
-              <a class="button-nav" href="#">About</a>
-              <a class="button-nav" href="#">Contact</a>
-            </div>
-          </div>
-          <div class="block2 text-input">
-            <h3 class="black-text left-side">MAIN NAVIGATION</h3>
-            <div class="black-line left-side">
-            </div>
-            <h4 class="black-text">css selector</h4>
-            <p class="black-text">.button-nav</p>
-            <h4 class="black-text">sample code</h4>
-            <code>&lt;a href="#" class="button-nav"&gt;Home&lt;/a&gt;</code>
-            <code>&lt;a href="#" class="button-nav"&gt;Popular Noodles&lt;/a&gt;</code>
-            <code>&lt;a href="#" class="button-nav"&gt;About Us&lt;/a&gt;</code>
-            <code>&lt;a href="#" class="button-nav"&gt;Contact Us&lt;/a&gt;</code>
-          </div>
-        </div>
+    <div class="heading" id="combined_elements">
+      <h2>combined elements</h2>
+      <div class="black-line"></div>
+    </div>
+
+    <div class="row white">
+      <h3>MAIN NAVIGATION</h3>
+      <h4>css selector</h4>
+      <p>.button-nav</p>
+      <h4>sample code</h4>
+      <code>&lt;a href="#" class="button-nav"&gt;work&lt;/a&gt;</code>
+      <code>&lt;a href="#" class="button-nav"&gt;about&lt;/a&gt;</code>
+      <code>&lt;a href="#" class="button-nav"&gt;contact&lt;/a&gt;</code>
+      <h4>rendered element</h4>
+      <div class="menuBar">
+        <a class="button-nav" href="#">work</a>
+        <a class="button-nav" href="#">about</a>
+        <a class="button-nav" href="#">contact</a>
       </div>
     </div>
   </div>
@@ -345,24 +319,24 @@
     <div id="footer-links">
       <ul>
         <li class="header_title"> Follow Us</li>
-        <li> <a href="https://www.facebook.com/" class="social_media"> Facebook</a></li>
+        <li> <a href="https://www.facebook.com/" class="link"> Facebook</a></li>
 
-        <li> <a href="https://twitter.com/" class="social_media"> Twitter</a></li>
-        <li> <a href="https://www.instagram.com/?hl=en" class="social_media"> Instagram</a></li>
+        <li> <a href="https://twitter.com/" class="link"> Twitter</a></li>
+        <li> <a href="https://www.instagram.com/?hl=en" class="link"> Instagram</a></li>
       </ul>
 
       <ul>
         <li class="header_title"> Contact Us</li>
         <li class="header_info"> 8888 University Dr. Vancouver, BC</li>
-        <li class="header_info">Cupathings@noodle.com</li>
+        <li class="header_info">terenceliu@hotmail.com</li>
         <li class="header_info">778-888-1234</li>
       </ul>
 
       <ul>
         <li class="header_title"> Links</li>
-        <li><a href="citations.html" class="link-nav">Citations</a></li>
-        <li><a href="styleguide.html" class="link-nav">Style Guide</a></li>
-        <li><a href="https://github.com/chinaisverybig/Cup-A-Things-Store" class="link-nav">GitHub</a></li>
+        <li><a href="citations.html" class="link">Citations</a></li>
+        <li><a href="styleguide.html" class="link">Style Guide</a></li>
+        <li><a href="https://github.com/chinaisverybig/Portfolio" class="link">GitHub</a></li>
 
       </ul>
     </div>
