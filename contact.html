@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Terence Liu</title>
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.png" />
+</head>
+
+<body>
+  <nav class="active menuBar" id="phone">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li><a href="work.html">work</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="active menuBar" id="laptop">
+    <ul class="laptopMenu">
+      <li><a class="button-nav" href="work.html">work</a></li>
+      <li><a class="button-nav" href="about.html">about</a></li>
+      <li id="visit"><a class="button-nav" href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="template-contact">
+    <header>
+      <h2>CONTACT</h2>
+      <div class="black-line">
+      </div>
+    </header>
+
+    <div class="row-empty">
+      <form id="checkoutForm" action="/action_page.php">
+        <div class="form-group">
+          <label for="form-input" class="form-label"> FULL NAME </label>
+          <input type="text" id="form-input" class="text-box" placeholder="i.e. John Wicke, etc.">
+          <label for="form-input" class="form-label"> E-MAIL </label>
+          <input type="text" id="form-input" class="text-box" placeholder="i.e. john_smith@gmail.com, etc.">
+          <label for="form-input" class="form-label"> PHONE NUMBER </label>
+          <input type="text" id="form-input" class="text-box" placeholder="i.e. 7788991010, etc.">
+          <div>
+            <label for="form-address-input" class="form-label">MESSAGE</label>
+            <textarea id="form-address-input" class="text-area" placeholder="Enter Your Message Here"></textarea>
+          </div>
+          <div class="form-submit">
+            <input type="submit" value="Send" class="button">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div id="footer-links">
+      <ul>
+        <li class="header_title"> Follow Me</li>
+        <li> <a href="https://www.facebook.com/" class="link"> Facebook</a></li>
+
+        <li> <a href="https://twitter.com/" class="link"> Twitter</a></li>
+        <li> <a href="https://www.instagram.com/?hl=en" class="link"> Instagram</a></li>
+      </ul>
+
+      <ul>
+        <li class="header_title"> Contact Me</li>
+        <li class="header_info"> 8888 University Dr. Vancouver, BC</li>
+        <li class="header_info">terenceliu@hotmail.com</li>
+        <li class="header_info">778-888-1234</li>
+      </ul>
+
+      <ul>
+        <li class="header_title"> Links</li>
+        <li><a href="styleguide.html" class="link">Style Guide</a></li>
+        <li><a href="template-project.html" class="link">Template</a></li>
+        <li><a href="https://github.com/chinaisverybig/Portfolio" class="link">GitHub</a></li>
+
+      </ul>
+    </div>
+
+    <div>
+      <p id="copyright" class="center"> terence liu © 2019</p>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+
+</body>
+
+</html>
