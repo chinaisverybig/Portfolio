@@ -2,17 +2,17 @@
 /*Importing custom fonts*/
 @font-face {
   font-family: "Freight Display Pro Black";
-  src: url("css/fonts/Freight Display Pro Black.otf");
+  src: url("fonts/Freight Display Pro Black.otf");
 }
 
 @font-face {
   font-family: "Poppins SemiBold";
-  src: url("css/fonts/Poppins-SemiBold.otf");
+  src: url("fonts/Poppins-SemiBold.otf");
 }
 
 @font-face {
   font-family: "Din Pro Regular";
-  src: url("css/fonts/DINPro-Regular.otf");
+  src: url("fonts/DINPro-Regular.otf");
 }
 
 /*This is a row that often contains a flex-container*/
@@ -202,16 +202,17 @@
 #descriptionSection .block2 {
   margin-left: 2rem;
   flex: 6;
-  background-color: black;
-  height: 25rem;
+  /* background-color: black; */
+  min-height: 25rem;
   border-radius: 1rem;
 }
 
 #processSection .block1 {
   flex: 6;
-  background-color: black;
-  height: 25rem;
+  /* background-color: black; */
+  min-height: 25rem;
   border-radius: 1rem;
+  padding-left: 1rem;
 }
 
 #processSection .block2 {
@@ -230,9 +231,10 @@
 #roleSection .block2 {
   margin-left: 2rem;
   flex: 6;
-  background-color: black;
-  height: 25rem;
+  /* background-color: black; */
+  min-height: 25rem;
   border-radius: 1rem;
+  padding: 2rem;
 }
 
 #reflection {
@@ -243,9 +245,9 @@
 /*Start of Work Template*/
 .project .block1 {
   flex: 1;
-  background-color: black;
+  /* background-color: black; */
   border-radius: 1rem;
-  min-height: 20rem;
+  /* min-height: 20rem; */
   margin-right: 2rem;
 }
 
@@ -284,8 +286,9 @@
 #aboutMe .block1 {
   flex: 2;
   min-height: 25rem;
-  background-color: black;
+  /* background-color: black; */
   border-radius: 1rem;
+  padding-left: 1rem;
 }
 
 #aboutMe .block2 {
@@ -297,6 +300,8 @@
 }
 
 /*End of About Template*/
+/*Start of Work Page*/
+/*End of Work Page*/
 /*for tablet*/
 @media only screen and (max-width:55rem) {
   #laptop {

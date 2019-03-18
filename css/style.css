@@ -12,17 +12,17 @@
 /*Importing custom fonts*/
 @font-face {
   font-family: "Freight Display Pro Black";
-  src: url("css/fonts/Freight Display Pro Black.otf");
+  src: url("fonts/Freight Display Pro Black.otf");
 }
 
 @font-face {
   font-family: "Poppins SemiBold";
-  src: url("css/fonts/Poppins-SemiBold.otf");
+  src: url("fonts/Poppins-SemiBold.otf");
 }
 
 @font-face {
   font-family: "Din Pro Regular";
-  src: url("css/fonts/DINPro-Regular.otf");
+  src: url("fonts/DINPro-Regular.otf");
 }
 
 input:focus,
@@ -110,6 +110,7 @@ p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4rem;
+  letter-spacing: 0;
 }
 
 a {
@@ -119,24 +120,34 @@ a {
   text-decoration: none;
 }
 
+figcaption {
+  clear: both;
+  color: #1E1E1E;
+  font-family: 'Din Pro Regular', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.4rem;
+  letter-spacing: 0;
+  padding: 2rem;
+}
+
 #styleguide {
-  margin: 6rem 12rem 0 12rem;
+  margin: 6rem 10rem 0 10rem;
 }
 
 #template-about {
-  margin: 6rem 12rem 0 12rem;
+  margin: 6rem 10rem 0 10rem;
 }
 
 #template-project {
-  margin: 8rem 12rem 0 12rem;
+  margin: 8rem 10rem 0 10rem;
 }
 
 #template-work {
-  margin: 6rem 12rem 0 12rem;
+  margin: 6rem 10rem 0 10rem;
 }
 
 #template-contact {
-  margin: 6rem 12rem 0 12rem;
+  margin: 6rem 10rem 0 10rem;
 }
 
 .heading {
@@ -600,6 +611,10 @@ footer {
 
 .inverse-blue {
   border: solid 0.2rem #d9f8f9;
+}
+
+.inverse-yellow {
+  border: solid 0.2rem #FBE8A6;
 }
 
 .inverse-white {
