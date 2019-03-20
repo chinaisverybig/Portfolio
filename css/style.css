@@ -536,6 +536,10 @@ footer {
   margin-right: 0.7rem;
 }
 
+#more {
+  display: none;
+}
+
 /*
   TEXT ELEMENTS -------------------
   most of these classes are made to set a paritcular font at a desired style and look
