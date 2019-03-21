@@ -477,15 +477,15 @@
   }
 
   #template-about {
-    margin: 4rem 6rem 0 6rem;
+    margin: 6rem 6rem 0 6rem;
   }
 
   #template-work {
-    margin: 4rem 6rem 0 6rem;
+    margin: 6rem 6rem 0 6rem;
   }
 
   #template-contact {
-    margin: 4rem 6rem 0 6rem;
+    margin: 6rem 6rem 0 6rem;
   }
 
   .heading {
@@ -503,11 +503,11 @@
   }
 
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   h2 {
-    font-size: 4.5rem;
+    font-size: 3.25rem;
   }
 
   /*Styleguide page Tablet Size*/
@@ -748,6 +748,7 @@
     margin: -3em 0 0 -1em;
     padding: 3em 0 2em 0;
     background: #1E1E1E;
+    border-radius: 0 0 1rem 1rem;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -841,7 +842,7 @@
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 2.75rem;
   }
 
   h3 {
@@ -910,6 +911,15 @@
 
   #imageLink .block2 {
     margin: 0;
+  }
+
+  .backButton {
+    position: absolute;
+    width: 2.5rem;
+    top: 4rem;
+    left: 1rem;
+    cursor: pointer;
+    transition: transform 0.5s ease;
   }
 
   /*End of Styleguide page*/
