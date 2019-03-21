@@ -611,18 +611,22 @@ footer {
 
 .blue {
   background-color: #d9f8f9;
+  transition: background-color 1s ease;
 }
 
 .aqua {
   background-color: #B4DFE5;
+  transition: background-color 1s ease;
 }
 
 .yellow {
   background-color: #FBE8A6;
+  transition: background-color 1s ease;
 }
 
 .orange {
   background-color: #F4976C;
+  transition: background-color 1s ease;
 }
 
 .inverse-blue {
@@ -738,6 +742,14 @@ footer {
 
 .backButton:hover, .backButton:focus, backButton:active {
   transform: scale(1.2);
+}
+
+#numeroUnoProject .orange:hover, #numeroUnoProject .orange:focus {
+  background-color: #FBE8A6;
+}
+
+#kinderMorganProject .aqua:hover, #kinderMorganProject .aqua:focus {
+  background-color: #d9f8f9;
 }
 
 #citations {
