@@ -306,133 +306,143 @@
 }
 
 /*End of About Template*/
-/*Start of Work Page*/
-/*End of Work Page*/
+/*Start of Project1 Page*/
+#descriptionSection1 .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#descriptionSection1 .block2 {
+  margin-left: 2rem;
+  flex: 6;
+  /* background-color: black; */
+  min-height: 25rem;
+  border-radius: 1rem;
+}
+
+#descriptionSection1 .block2 figcaption {
+  margin: 0 2rem 2rem 2rem;
+}
+
+#processSection1 .block1 {
+  flex: 6;
+  /* background-color: black; */
+  min-height: 25rem;
+  border-radius: 1rem;
+  padding: 3rem 1rem 2rem 2rem;
+}
+
+#processSection1 .block1 figcaption {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+#processSection1 .block2 {
+  flex: 5;
+  display: flex;
+  margin-left: 2rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#roleSection1 .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#roleSection1 .block2 {
+  margin-left: 2rem;
+  flex: 6;
+  /* background-color: black; */
+  min-height: 25rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#roleSection1 .block2 figcaption {
+  margin-top: 1.5rem;
+}
+
+/*End of Project1 Page*/
+/*Start of Project2 Page*/
+#descriptionSection2 .block1 {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#descriptionSection2 .block2 {
+  margin-left: 2rem;
+  flex: 4;
+  /* background-color: black; */
+  min-height: 25rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#processSection2 .block1 {
+  flex: 6;
+  /* background-color: black; */
+  min-height: 25rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#processSection2 .block2 {
+  flex: 5;
+  display: flex;
+  margin-left: 2rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#roleSection2 .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#roleSection2 .block2 {
+  margin-left: 2rem;
+  flex: 6;
+  /* background-color: black; */
+  min-height: 25rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#roleSection2 .block2 figcaption {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width:65rem) {
+  .dots {
+    display: inline-block;
+  }
+
+  .more {
+    display: none;
+    transition-duration: 5s;
+  }
+
+  .showButton {
+    display: block;
+    width: 3rem;
+    height: auto;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+  }
+}
+
+/*End of Project2 Page*/
 /*for tablet*/
 @media only screen and (max-width:55rem) {
-  #laptop {
-    /*Laptop Size Screen Menu is not displayed for Tablet*/
-    display: none;
-  }
-
-  /*Hamburger Menu*/
-  #menuToggle {
-    display: block;
-    position: relative;
-    top: 0.25rem;
-    left: 1rem;
-    z-index: 1000;
-    -webkit-user-select: none;
-    user-select: none;
-  }
-
-  #menuToggle input {
-    display: block;
-    width: 2rem;
-    height: 1.6rem;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0;
-    /* hide this */
-    z-index: 1002;
-    /* and place it over the hamburger */
-    -webkit-touch-callout: none;
-  }
-
-  #menuToggle span {
-    display: block;
-    width: 1.65rem;
-    height: 0.2rem;
-    margin-bottom: 0.25rem;
-    position: relative;
-    background: #1E1E1E;
-    border-radius: 0.15rem;
-    z-index: 1001;
-    transform-origin: 0.2rem 0;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-      opacity 0.55s ease;
-  }
-
-  #menuToggle span:first-child {
-    transform-origin: 0% 0%;
-  }
-
-  #menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-  }
-
-  #menuToggle input:checked~span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #FFFFFF;
-  }
-
-  #menuToggle input:checked~span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-
-  #menuToggle input:checked~span:nth-last-child(2) {
-    opacity: 1;
-    transform: rotate(-45deg) translate(0, -1px);
-  }
-
-  #menu {
-    text-align: center;
-    overflow-y: scroll;
-    position: absolute;
-    width: 100%;
-    margin: -3em 0 0 -1em;
-    padding: 3em 0 2em 0;
-    background: #1E1E1E;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-  }
-
-  #menu li {
-    padding: 0;
-  }
-
-  #menu li a {
-    display: block;
-    padding: 1rem 0;
-    font-size: 1rem;
-    color: white;
-    border: 0.1rem solid #ffffff00;
-    font-family: 'Poppins Semibold', sans-serif;
-    font-weight: 300;
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-  }
-
-  #menuToggle input:checked~ul {
-    transform: scale(1.0, 1.0);
-    opacity: 1;
-  }
-
-  /*Set Tablet Menu to have hamburger Menu*/
-  #phone {
-    width: 100%;
-    border-radius: 0 0 0.5rem 0.5rem;
-    position: fixed;
-    display: block;
-    padding: 0.8rem 0;
-    z-index: 1000;
-  }
-
-  /*Hover styling*/
-  #menu li a:hover {
-    padding: 1rem 0;
-    border: 0.1rem solid #F4976C;
-    text-decoration: none;
-    color: #F4976C;
-  }
-
   .text-box[type=text] {
     width: 100%;
     clear: both;
@@ -556,10 +566,47 @@
 
   #processSection .block2 {
     margin-left: 0;
+    margin-bottom: 2rem;
     order: 0;
   }
 
   #descriptionSection .block2 {
+    margin-left: 0;
+  }
+
+  #roleSection1 .block2 {
+    margin-left: 0;
+  }
+
+  #processSection1 .block1 {
+    order: 1;
+  }
+
+  #processSection1 .block2 {
+    margin-left: 0;
+    margin-bottom: 2rem;
+    order: 0;
+  }
+
+  #descriptionSection1 .block2 {
+    margin-left: 0;
+  }
+
+  #roleSection2 .block2 {
+    margin-left: 0;
+  }
+
+  #processSection2 .block1 {
+    order: 1;
+  }
+
+  #processSection2 .block2 {
+    margin-left: 0;
+    margin-bottom: 2rem;
+    order: 0;
+  }
+
+  #descriptionSection2 .block2 {
     margin-left: 0;
   }
 
@@ -577,21 +624,28 @@
     margin-left: 0;
   }
 
-  .dots {
-    display: inline-block;
+  #descriptionSection .block1 {
+    margin-bottom: 2rem;
   }
 
-  .more {
-    display: none;
-    transition-duration: 5s;
+  #roleSection .block1 {
+    margin-bottom: 2rem;
   }
 
-  .showButton {
-    display: block;
-    width: 3rem;
-    height: auto;
-    margin: 0 auto;
-    transition: all 0.5s ease;
+  #descriptionSection1 .block1 {
+    margin-bottom: 2rem;
+  }
+
+  #roleSection1 .block1 {
+    margin-bottom: 2rem;
+  }
+
+  #descriptionSection2 .block1 {
+    margin-bottom: 2rem;
+  }
+
+  #roleSection2 .block1 {
+    margin-bottom: 2rem;
   }
 }
 
@@ -844,18 +898,6 @@
 
   /*End of Styleguide page*/
   /*Start of Project Page*/
-  #descriptionSection .block1 {
-    margin-bottom: 2rem;
-  }
-
-  #processSection .block2 {
-    margin-bottom: 2rem;
-  }
-
-  #roleSection .block1 {
-    margin-bottom: 2rem;
-  }
-
   /*End of Project Page*/
   /*Citations Page*/
   #citations {

@@ -127,7 +127,7 @@ figcaption {
   font-size: 0.75rem;
   line-height: 1.4rem;
   letter-spacing: 0;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 #styleguide {
