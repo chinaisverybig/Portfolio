@@ -733,6 +733,11 @@ footer {
   top: 6rem;
   left: 1rem;
   cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.backButton:hover, .backButton:focus, backButton:active {
+  transform: scale(1.2);
 }
 
 #citations {
