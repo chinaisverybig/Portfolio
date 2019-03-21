@@ -1,15 +1,23 @@
 function showMoreFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("showButton");
+  var dots = document.getElementsByClassName("dots");
+  var moreText = document.getElementsByClassName("more");
+  var btn = document.getElementsByClassName("showButton");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
+  for (var i = 0; i < btn.length; i++) {
+    btn[i].onclick = function() {
+      alert("the index position is:" + i + "and the length is:" + btn.length);
+      if (dots[i].style.display === "none") {
+        btn[i].style.transform = "rotate(0deg)";
+        btn[i].style.transitionDuration = "0.35s ease";
+        dots[i].style.display = "inline";
+        moreText[i].style.display = "none";
+      } else {
+        btn[i].style.transform = "rotate(180deg)";
+        btn[i].style.transitionDuration = "0.35s ease";
+        dots[i].style.display = "none";
+        moreText[i].style.display = "inline";
+      }
+    };
   }
+
 }

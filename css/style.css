@@ -536,8 +536,20 @@ footer {
   margin-right: 0.7rem;
 }
 
-#more {
+.dots {
   display: none;
+}
+
+.more {
+  display: inline;
+}
+
+.showButton {
+  display: none;
+}
+
+.showButton:hover, .showButton:active {
+  transform: scale(1.2);
 }
 
 /*

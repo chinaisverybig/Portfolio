@@ -196,7 +196,8 @@
 #descriptionSection .block1 {
   flex: 5;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #descriptionSection .block2 {
@@ -219,13 +220,15 @@
   flex: 5;
   display: flex;
   margin-left: 2rem;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #roleSection .block1 {
   flex: 5;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #roleSection .block2 {
@@ -239,6 +242,9 @@
 
 #reflection {
   margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*End of Project Template --------------------------------------------------------------------------*/
@@ -570,6 +576,23 @@
     flex: 3;
     margin-left: 0;
   }
+
+  .dots {
+    display: inline-block;
+  }
+
+  .more {
+    display: none;
+    transition-duration: 5s;
+  }
+
+  .showButton {
+    display: block;
+    width: 3rem;
+    height: auto;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+  }
 }
 
 /*for phone*/
@@ -820,6 +843,20 @@
   }
 
   /*End of Styleguide page*/
+  /*Start of Project Page*/
+  #descriptionSection .block1 {
+    margin-bottom: 2rem;
+  }
+
+  #processSection .block2 {
+    margin-bottom: 2rem;
+  }
+
+  #roleSection .block1 {
+    margin-bottom: 2rem;
+  }
+
+  /*End of Project Page*/
   /*Citations Page*/
   #citations {
     margin: 2rem;
