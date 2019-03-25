@@ -8,7 +8,6 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
-  font-size: 16px;
 }
 
 /*Importing custom fonts*/
@@ -36,7 +35,7 @@ button:focus {
 
 /* sets body text to font and gives it font size of 16 */
 body {
-  font-size: 1rem;
+  font-size: 16px;
   flex-direction: column;
 }
 
@@ -69,14 +68,14 @@ ul li {
 }
 
 /* letter spacing also creates space between each letter */
-h1 {
+.hello {
   color: #1E1E1E;
   font-family: 'Freight Display Pro Black', serif;
   font-size: 6rem;
   letter-spacing: 0.35rem;
 }
 
-h2 {
+h1 {
   color: #1E1E1E;
   font-family: 'Freight Display Pro Black', serif;
   font-size: 3.5rem;
@@ -84,7 +83,7 @@ h2 {
 }
 
 /* h3 header, create margin at the bottom, and set font */
-h3 {
+h2 {
   clear: both;
   color: #1E1E1E;
   font-family: 'Poppins Semibold', sans-serif;
@@ -94,7 +93,7 @@ h3 {
 }
 
 /* clear:both resets the float (left/right) */
-h4 {
+h3 {
   clear: both;
   color: #5B5B5B;
   margin-bottom: 1rem;

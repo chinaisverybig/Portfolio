@@ -502,7 +502,7 @@
     text-decoration: none;
   }
 
-  * {
+  body {
     font-size: 14px;
   }
 
@@ -709,7 +709,7 @@
     margin-bottom: 0.25rem;
     position: relative;
     background: #1E1E1E;
-    border-radius: 0.15rem;
+    border-radius: 5rem;
     z-index: 1001;
     transform-origin: 0.2rem 0;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
@@ -829,7 +829,7 @@
     text-decoration: none;
   }
 
-  * {
+  body {
     font-size: 12px;
   }
 
@@ -837,19 +837,18 @@
     padding: 0;
   }
 
-  h1 {
+  /* h1 {
     font-size: 4rem;
-  }
-
-  h2 {
+  } */
+  h1 {
     font-size: 2.75rem;
   }
 
-  h3 {
+  h2 {
     font-size: 1.5rem;
   }
 
-  h4 {
+  h3 {
     font-size: 1rem;
   }
 
