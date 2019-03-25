@@ -15,12 +15,12 @@
 <body>
   <nav class="active menuBar" id="phone">
     <div id="menuToggle">
-      <input type="checkbox" />
+      <input name="hamburgerMenu" type="checkbox" />
       <span></span>
       <span></span>
       <span></span>
       <ul id="menu">
-        <li id="visit"><a href="work.html">work</a></li>
+        <li><a href="work.html">work</a></li>
         <li><a href="about.html">about</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
@@ -34,10 +34,8 @@
       <li><a class="button-nav" href="contact.html">contact</a></li>
     </ul>
   </nav>
-  <div class="backButton">
-    <a onclick="goBack()">
-      <img src="img/backButton.png" class="back" alt="back button">
-    </a>
+  <div class="backButton" onclick="goBack()">
+    <img src="img/backButton.png" class="back" alt="back button">
   </div>
   <div id="template-project">
     <header>
@@ -50,7 +48,7 @@
     <div class="flex-container" id="briefSection">
       <div class="block1">
         <h4>TEAM</h4>
-        <p>Terence Liu <br> Josha Villanueva</p>
+        <p>Terence Liu <br> Joshua Villanueva</p>
       </div>
       <div class="block2">
         <h4>SKILLS</h4>
@@ -58,20 +56,20 @@
       </div>
     </div>
 
-    <div class="row blue">
+    <div class="row blue" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
       <h3>PROBLEM</h3>
       <p>We found that it was difficult to find complete information on the Trans Mountain Pipeline expansion, as it required us to scour all over the internet in order to piece together bits of data. To solve this issue, we developed a website that
         included perspectives and affects it would have on stakeholders.</p>
     </div>
 
     <div class="row-empty">
-      <h3>DESCRIPTION</h3>
+      <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">DESCRIPTION</h3>
       <div class="flex-container" id="descriptionSection2">
         <div class="block1" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
           <p>The goal of this project is to communicate data in a clear manner through information design. The complex data that I have chosen to work with are the pros and cons with the Trans Mountain Pipeline Expansion.<span class="dots">..</span><span
               class="more"> This project successfully
               communicates an unbiased view of information on the stakeholders who are impacted by the expansion. The website provides an in-depth explanation on the pros and cons that affects the environment, industry, and community. </span></p>
-          <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton">
+          <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton" alt="Show More Button">
 
         </div>
         <div class="block2 blue" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="300">
@@ -82,7 +80,7 @@
     </div>
 
     <div class="row-empty">
-      <h3>PROCESS</h3>
+      <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">PROCESS</h3>
       <div class="flex-container" id="processSection2">
         <div class="block1 blue" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
           <img src="img/kinderMorganPic1.gif" alt="Image of Trans Mountain Pipeline Expansion Website on Laptop">
@@ -94,14 +92,14 @@
               to understand way. After content writing we
               began developing a website with HTML/CSS and got constant feedback from our professor on how we could improve, such as including viewpoints from different members of the community. After finalizing our content, we began to make our
               website fully responsive.</span></p>
-          <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton">
+          <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton" alt="Show More Button">
 
         </div>
       </div>
     </div>
 
     <div class="row-empty">
-      <h3>ROLE</h3>
+      <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">ROLE</h3>
       <div class="flex-container" id="roleSection2">
         <div class="block1" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
           <p>In this project, I was responsible for the overall art direction of the website, as I picked the typeface, color palette, and designed the layout.<span class="dots">..</span><span class="more"> I was in charge of creating the wireframe
@@ -109,7 +107,7 @@
               devices ranging from a desktop computer to a mobile device. I worked with my partner to code the HTML, and laid out the basic structure of the website, afterwards I took on the task of coding the CSS so that it would follow the
               original
               art direction.</span></p>
-          <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton">
+          <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton" alt="Show More Button">
 
         </div>
         <div class="block2 blue" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="300">
@@ -119,13 +117,13 @@
       </div>
     </div>
 
-    <div class="row inverse-blue" id="reflection">
+    <div class="row inverse-blue" id="reflection" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
       <h3>REFLECTION</h3>
       <p>Working on developing a website that was geared towards a wide audience, helped me think about keeping the content unbiased.<span class="dots">..</span><span class="more"> I learned to show both sides of the argument, by presenting the pros
           and cons of the Trans Mountain Pipeline
           Expansion. However, researching who the voices behind each side was very difficult, it took my team many hours of scouring through the internet, newspaper articles, and research papers to have a balanced website of perspectives. Looking
           forward, I hope to continue providing unbiased content, that allows the audience to understand the reasoning behind each side.</span> </p>
-      <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton">
+      <input type="image" src="img/more_blue.png" onclick="showMoreFunction()" class="showButton" alt="Show More Button">
 
     </div>
 
