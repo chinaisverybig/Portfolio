@@ -75,6 +75,10 @@ ul li {
   letter-spacing: 0.35rem;
 }
 
+.helloWorld {
+  margin-bottom: -1rem;
+}
+
 h1 {
   color: #1E1E1E;
   font-family: 'Freight Display Pro Black', serif;
@@ -89,7 +93,7 @@ h2 {
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
-  letter-spacing: 0.4rem
+  letter-spacing: 0.35rem
 }
 
 /* clear:both resets the float (left/right) */
@@ -99,7 +103,7 @@ h3 {
   margin-bottom: 1rem;
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 1.5rem;
-  letter-spacing: 0.3rem
+  letter-spacing: 0.25rem
 }
 
 /* this is the general paragraph style */
@@ -145,6 +149,10 @@ figcaption {
 
 #template-work {
   margin: 6rem 10rem 0 10rem;
+}
+
+#projects {
+  margin: 3rem 10rem 0 10rem;
 }
 
 #template-contact {
@@ -238,7 +246,7 @@ img {
 footer {
   background-color: #ECF1F2;
   margin: 5rem 0 0 0;
-  padding: 3rem 0 0.5rem 1rem;
+  padding: 3rem 5rem 2rem 5rem;
   border-radius: 1rem 1rem 0 0;
 }
 
@@ -753,83 +761,40 @@ footer {
   background-color: #d9f8f9;
 }
 
-#citations {
-  margin: -3rem 5rem 2rem 5rem;
-}
-
-/* paragraph for citation */
-#citations p {
-  margin: 0.5rem 0 -1rem 0;
-  padding: 0;
-  line-height: 1rem;
-}
-
 /* justify content makes sure that the content takes up the same amount of space within the footer */
-#footer-links {
+.flex-container#footerContent {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-/* make sure each list only take 33% of the entire screen/footer, making it even and proportionate  */
-#footer-links ul {
-  margin: 0;
-  padding: 0;
-  width: 33%;
+.footerContent {
+  text-decoration: underline;
+  color: #1E1E1E;
+  transition: 0.3s;
+  margin-bottom: 0.5rem;
 }
 
-#footer-links ul li {
-  height: auto;
-  list-style-type: none;
-  text-align: center;
+.footerContent:hover, .footerContent:active, .footerContent:focus {
+  color: #F4976C;
 }
 
 #copyright {
-  margin-top: 2rem;
-}
-
-/* this is setting the footer, misnamed it, should be footer_title */
-.header_title {
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding-bottom: 1rem;
-}
-
-.header_info {
-  padding-bottom: 0.25rem;
-}
-
-/* link-nav is made for the 3 navigation pages that are required for marking, citations, styleguide, github. */
-.link-nav {
   color: #1E1E1E;
+  font-family: 'Poppins Semibold', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
   text-decoration: none;
-  transition: color 0.5s ease;
+  transition: 0.3s;
 }
 
-.link-nav:hover, .button-nav:focus {
-  color: #F4976C;
+.intro {
+  background-color: #ECF1F2;
+  border-radius: 0 0 1rem 1rem;
+  padding: 8rem 10rem 6rem 10rem;
 }
 
-.link {
-  text-decoration: none;
-  color: #F4976C;
-  transition: color 0.5s ease;
-}
-
-.link:hover {
-  color: #FBE8A6;
-}
-
-/* social media is used for links that have Facebook, Twitter, Instagram and to decorate them with hover and focus  */
-.social_media {
-  color: #42538a;
-  text-decoration: none;
-}
-
-.social_media:hover {
-  color: #a8cfe5;
-  font-weight: bold;
-}
-
-.social_media:focus {
-  color: rgb(100, 100, 100);
+.intro-blurb {
+  margin: auto;
 }

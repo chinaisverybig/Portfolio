@@ -484,6 +484,14 @@
     margin: 6rem 6rem 0 6rem;
   }
 
+  #projects {
+    margin: 3rem 6rem 0 6rem;
+  }
+
+  .intro {
+    padding: 6rem 6rem 4rem 6rem;
+  }
+
   #template-contact {
     margin: 6rem 6rem 0 6rem;
   }
@@ -506,8 +514,13 @@
     font-size: 14px;
   }
 
+  .hello {
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+  }
+
   h2 {
-    font-size: 3.25rem;
+    font-size: 2rem;
   }
 
   /*Styleguide page Tablet Size*/
@@ -663,6 +676,14 @@
   #roleSection2 .block1 {
     margin-bottom: 2rem;
   }
+
+  footer {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+
+  .flex-container#footerContent {
+    flex-direction: column;
+  }
 }
 
 /*for phone*/
@@ -811,6 +832,14 @@
     margin: 4rem 2rem 0 2rem;
   }
 
+  #projects {
+    margin: 2rem 2rem 0 2rem;
+  }
+
+  .intro {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+
   #template-contact {
     margin: 4rem 2rem 0 2rem;
   }
@@ -840,6 +869,11 @@
   /* h1 {
     font-size: 4rem;
   } */
+  .hello {
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+  }
+
   h1 {
     font-size: 2.75rem;
   }
