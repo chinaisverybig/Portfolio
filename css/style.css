@@ -67,6 +67,12 @@ ul li {
   height: 100%;
 }
 
+iframe {
+  width: 100%;
+  height: 20rem;
+  border: none;
+}
+
 /* letter spacing also creates space between each letter */
 .hello {
   color: #1E1E1E;
@@ -797,4 +803,8 @@ footer {
 
 .intro-blurb {
   margin: auto;
+}
+
+.map {
+  margin: 3rem 5rem 0 5rem;
 }
