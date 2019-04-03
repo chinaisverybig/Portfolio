@@ -17,14 +17,17 @@ function showMoreFunction() {
 
 var more = function(btn, dot, moreText) {
   if (dot.style.display === "none") {
-    btn.style.transform = "rotate(0deg)";
     btn.style.transitionDuration = "0.35s ease";
+    btn.style.animation = "shadow-pulse 1s infinite"
+    btn.style.transform = "rotate(0deg)";
+
     dot.style.display = "inline";
     moreText.style.display = "none";
   } else {
     btn.style.transform = "rotate(180deg)";
     btn.style.transitionDuration = "0.35s ease";
+    btn.style.animation = "none"
     dot.style.display = "none";
-    moreText.style.display = "inline";
+    moreText.style.display = "inline"
   }
 }

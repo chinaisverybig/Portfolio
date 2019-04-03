@@ -564,10 +564,12 @@ footer {
 
 .showButton {
   display: none;
+  border-radius: 50%;
+  animation: shadow-pulse 1s infinite;
 }
 
-.showButton:hover, .showButton:active {
-  transform: scale(1.2);
+.showButton:hover, .showButton:active, .showButton:focus {
+  animation: none;
 }
 
 /*
@@ -810,4 +812,21 @@ footer {
 
 .map {
   margin: 3rem 5rem 0 5rem;
+}
+
+/*Animation for show more buttons to pulse*/
+@keyframes shadow-pulse {
+  0% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
 }
