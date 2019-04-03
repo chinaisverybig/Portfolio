@@ -510,10 +510,13 @@
     text-decoration: none;
   }
 
-  body {
-    font-size: 14px;
+  html {
+    font-size: 87.5%;
   }
 
+  /* body {
+    font-size: 14px;
+  } */
   .hello {
     font-size: 4rem;
     letter-spacing: 0.25rem;
@@ -862,10 +865,13 @@
     text-decoration: none;
   }
 
-  body {
-    font-size: 12px;
+  html {
+    font-size: 75%;
   }
 
+  /* body {
+    font-size: 12px;
+  } */
   label {
     padding: 0;
   }

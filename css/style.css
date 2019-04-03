@@ -26,16 +26,13 @@
   src: url("fonts/DINPro-Regular.otf");
 }
 
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-  outline: none;
+/* sets body text to font and gives it font size of 16 */
+html {
+  font-size: 100%;
 }
 
-/* sets body text to font and gives it font size of 16 */
 body {
-  font-size: 16px;
+  font-size: 1rem;
   flex-direction: column;
 }
 
@@ -79,10 +76,16 @@ iframe {
   font-family: 'Freight Display Pro Black', serif;
   font-size: 6rem;
   letter-spacing: 0.35rem;
+  margin-bottom: 0;
 }
 
 .helloWorld {
   margin-bottom: -1rem;
+  clear: both;
+  color: #1E1E1E;
+  font-family: 'Poppins Semibold', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.35rem
 }
 
 h1 {
