@@ -297,6 +297,7 @@ footer {
 
 /*input text-box styling*/
 .text-box[type=text] {
+  font-family: 'Din Pro Regular', sans-serif;
   border: 0.08rem solid #5B5B5B;
   border-radius: 0.75rem;
   padding: 0.5rem;
@@ -319,6 +320,7 @@ footer {
 }
 
 .text-area {
+  font-family: 'Din Pro Regular', sans-serif;
   display: block;
   font-size: 0.8rem;
   border: 0.08rem solid #5B5B5B;
@@ -687,7 +689,7 @@ footer {
 }
 
 #numeroUnoProject .orange:hover, #numeroUnoProject .orange:focus {
-  background-color: #FBE8A6;
+  background-color: #f7ac8a;
 }
 
 #kinderMorganProject .aqua:hover, #kinderMorganProject .aqua:focus {
