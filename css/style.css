@@ -168,6 +168,22 @@ figcaption {
   margin: 6rem 10rem 0 10rem;
 }
 
+/*Work Page Header*/
+#workHeader {
+  padding: 0 6rem;
+}
+
+/*Contact Page Header Image*/
+#contactHeader {
+  padding: 0 8rem;
+}
+
+.contactImage {
+  width: 100%;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 8px 5px -5px rgba(51, 51, 51, 0.6);
+}
+
 .heading {
   margin: 5rem 0 2rem 0;
 }
@@ -262,17 +278,6 @@ footer {
 /*
   INTERACTIVE ELEMENTS -------------------
 */
-/*Contact Page Header Image*/
-#contactHeader {
-  padding: 0 8rem;
-}
-
-.contactImage {
-  width: 100%;
-  border-radius: 0 0 1rem 1rem;
-  box-shadow: 2px 2px 8px rgba(51, 51, 51, 0.6);
-}
-
 /* Styling for the navigation button that is active*/
 .active {
   position: fixed;
@@ -566,7 +571,7 @@ footer {
 .showButton {
   display: none;
   border-radius: 50%;
-  animation: shadow-pulse 1s infinite;
+  animation: shadow-pulse 1.5s infinite;
 }
 
 .showButton:hover, .showButton:active, .showButton:focus {
@@ -714,7 +719,7 @@ footer {
 .intro {
   background-color: #ECF1F2;
   border-radius: 0 0 1rem 1rem;
-  padding: 8rem 10rem 6rem 10rem;
+  padding: 9rem 4rem 6rem 4rem;
 }
 
 .intro-blurb {
