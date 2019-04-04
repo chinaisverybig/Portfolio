@@ -298,6 +298,10 @@
   border-radius: 1rem;
 }
 
+#aboutMe .block1 img {
+  border-radius: 1rem;
+}
+
 #aboutMe .block2 {
   flex: 2;
   margin-left: 2rem;
