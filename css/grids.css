@@ -476,6 +476,10 @@
     padding: 0 3rem;
   }
 
+  #citations {
+    margin: 6rem 6rem 0 6rem;
+  }
+
   #styleguide {
     margin: 4rem 6rem 0 6rem;
   }
@@ -995,6 +999,6 @@
   /*End of Project Page*/
   /*Citations Page*/
   #citations {
-    margin: 2rem;
+    margin: 3rem 2rem 2rem 2rem;
   }
 }
