@@ -35,7 +35,9 @@
   </nav>
 
   <header id="contactHeader">
+    <!-- <div class="parallax"> -->
     <img src="img/Location.jpg" class="contactImage">
+    <!-- </div> -->
   </header>
 
   <div id="template-contact">
@@ -44,20 +46,20 @@
     </div>
 
     <div class="row-empty">
-      <form id="checkoutForm" action="/action_page.php">
+      <form id="checkoutForm" action="php/sendemail.php" method="post">
         <div class="form-group">
           <label for="name-input" class="form-label"> FULL NAME </label>
-          <input type="text" id="name-input" class="text-box" placeholder="i.e. John Wicke, etc.">
+          <input type="text" name="name-input" id="name-input" class="text-box" placeholder="i.e. John Wicke, etc.">
           <label for="email-input" class="form-label"> E-MAIL </label>
-          <input type="text" id="email-input" class="text-box" placeholder="i.e. john_smith@gmail.com, etc.">
+          <input type="text" name="email-input" id="email-input" class="text-box" placeholder="i.e. john_smith@gmail.com, etc.">
           <label for="phone-input" class="form-label"> PHONE NUMBER </label>
-          <input type="text" id="phone-input" class="text-box" placeholder="i.e. 7788991010, etc.">
+          <input type="text" name="phone-input" id="phone-input" class="text-box" placeholder="i.e. 7788991010, etc.">
           <div>
-            <label for="address-input" class="form-label">MESSAGE</label>
-            <textarea id="address-input" class="text-area" placeholder="Enter Your Message Here"></textarea>
+            <label for="message-input" class="form-label">MESSAGE</label>
+            <textarea name="message-input" id="message-input" class="text-area" placeholder="Enter Your Message Here"></textarea>
           </div>
           <div class="form-submit">
-            <input type="submit" id="form-submit" value="Send" class="button">
+            <input type="submit" name="form-submit" id="form-submit" value="Send" class="button">
           </div>
         </div>
       </form>
