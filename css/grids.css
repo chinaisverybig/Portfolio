@@ -468,6 +468,10 @@
     flex-direction: column;
   }
 
+  #contactHeader {
+    padding: 0 4rem;
+  }
+
   #styleguide {
     margin: 4rem 6rem 0 6rem;
   }
@@ -493,7 +497,7 @@
   }
 
   #template-contact {
-    margin: 6rem 6rem 0 6rem;
+    margin: 4rem 6rem 0 6rem;
   }
 
   .heading {
@@ -502,6 +506,10 @@
 
   .row {
     padding: 2rem;
+  }
+
+  .row-empty {
+    margin-top: 3rem;
   }
 
   /*general styling for basic elements*/
@@ -859,6 +867,10 @@
     padding: 2rem;
   }
 
+  .row-empty {
+    margin-top: 2rem;
+  }
+
   /*general styling*/
   a {
     color: #ffffff;
@@ -894,6 +906,10 @@
 
   h3 {
     font-size: 1rem;
+  }
+
+  #contactHeader {
+    padding: 0;
   }
 
   /*Styleguide page phone size*/
