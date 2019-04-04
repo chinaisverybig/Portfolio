@@ -730,6 +730,23 @@ footer {
   margin: 3rem 5rem 0 5rem;
 }
 
+#goUpButton {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+#goUpButton:hover, #goUpButton:focus, #goUpButton:active {
+  transform: scale(1.2);
+}
+
 /*Animation for show more buttons to pulse*/
 @keyframes shadow-pulse {
   0% {
