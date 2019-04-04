@@ -1,7 +1,7 @@
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
-    document.getElementById("goUpButton").style.bottom = "10rem";
+    document.getElementById("goUpButton").style.bottom = "11rem";
   } else {
     document.getElementById("goUpButton").style.bottom = "2rem";
   }
