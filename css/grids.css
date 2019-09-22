@@ -328,7 +328,7 @@
   border-radius: 1rem;
 }
 
-#descriptionSection1 .block2 figcaption {
+#descriptionSection1 .block2 .figcaption {
   margin: 0 2rem 2rem 2rem;
 }
 
@@ -340,7 +340,7 @@
   padding: 3rem 1rem 2rem 2rem;
 }
 
-#processSection1 .block1 figcaption {
+#processSection1 .block1 .figcaption {
   margin-top: 1rem;
   margin-right: 1rem;
 }
@@ -369,7 +369,7 @@
   padding: 2rem;
 }
 
-#roleSection1 .block2 figcaption {
+#roleSection1 .block2 .figcaption {
   margin-top: 1.5rem;
 }
 
@@ -423,7 +423,7 @@
   padding: 2rem;
 }
 
-#roleSection2 .block2 figcaption {
+#roleSection2 .block2 .figcaption {
   margin-top: 1rem;
 }
 

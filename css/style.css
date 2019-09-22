@@ -136,7 +136,7 @@ a {
   text-decoration: none;
 }
 
-figcaption {
+.figcaption {
   clear: both;
   color: #1E1E1E;
   font-family: 'Din Pro Regular', sans-serif;
