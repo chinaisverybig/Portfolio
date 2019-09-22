@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Terence Liu</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.png" />
+</head>
+
+<body>
+  <nav class="active menuBar" id="phone">
+    <div id="menuToggle">
+      <input aria-label="hamburgerMenu" type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li><a href="work.html">work</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="active menuBar" id="laptop">
+    <ul class="laptopMenu">
+      <li id="visit"><a class="button-nav" href="work.html">work</a></li>
+      <li><a class="button-nav" href="about.html">about</a></li>
+      <li><a class="button-nav" href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+  <div class="backButton" onclick="goBack()">
+    <img src="img/backButton_lowres.png" data-src="img/backButton.png" class="back lazyload" alt="back button">
+    <noscript><img src="img/backButton.png" class="back" alt="back button"></noscript>
+  </div>
+  <input type="image" src="img/goUpButton.png" onclick="topFunction()" id="goUpButton" title="Go to top" alt="Button To The Top">
+
+  <div id="template-project">
+    <header>
+      <h1>COMPASS</h1>
+      <div class="black-line left-side">
+      </div>
+      <h2>A MOBILE APPLICATION</h2>
+    </header>
+
+    <div class="flex-container" id="briefSection">
+      <div class="block1">
+        <h3>TEAM</h3>
+        <p>Terence Liu</p>
+      </div>
+      <div class="block2">
+        <h3>SKILLS</h3>
+        <p>JAVA <br> Android Studio <br> Sketching </p>
+      </div>
+    </div>
+
+    <div class="row orange" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+      <h2>PROBLEM</h2>
+      <p>We found that it was difficult to find complete information on the Trans Mountain Pipeline expansion, as it required us to scour all over the internet in order to piece together bits of data. To solve this issue, we developed a website that
+        included perspectives and affects it would have on stakeholders.</p>
+    </div>
+
+    <div class="row-empty">
+      <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">DESCRIPTION</h2>
+      <div class="flex-container" id="descriptionSection2">
+        <div class="block1 block" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+          <p>The goal of this project is to communicate data in a clear manner through information design. The complex data that I have chosen to work with are the pros and cons with the Trans Mountain Pipeline Expansion.<span class="dots">..</span><span
+              class="more"> This project successfully
+              communicates an unbiased view of information on the stakeholders who are impacted by the expansion. The website provides an in-depth explanation on the pros and cons that affects the environment, industry, and community. </span></p>
+          <input aria-label="showDescription" title="showDescription" type="image" src="img/more_blue.png" class="showButton" alt="Show More Button For Description" id="description">
+
+        </div>
+        <div class="block2 orange" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="300">
+          <img src="img/kinderMorganPic2_lowres.gif" class="lazyload" data-src="img/kinderMorganPic2.gif" alt="Image of Trans Mountain Pipeline Expansion Website on Phone">
+          <noscript><img src="img/kinderMorganPic2.gif" alt="Image of Trans Mountain Pipeline Expansion Website on Phone"></noscript>
+          <p class="figcaption">Figure 2.1: Prototyping using Flinto to visualize what the website would look like on a mobile device.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-empty">
+      <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">PROCESS</h2>
+      <div class="flex-container" id="processSection2">
+        <div class="block1 orange" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+          <img src="img/kinderMorganPic1_lowres.gif" class="lazyload" data-src="img/kinderMorganPic1.gif" alt="Image of Trans Mountain Pipeline Expansion Website on Laptop">
+          <noscript><img src="img/kinderMorganPic1.gif" alt="Image of Trans Mountain Pipeline Expansion Website on Laptop"></noscript>
+          <p class="figcaption">Figure 2.2: Prototyping using Flinto to visualize what the website would look like on a laptop.</p>
+        </div>
+        <div class="block2 block" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="300">
+          <p>We first searched for a complex environmental issue that has not been well documented, so we decided to focus on the Trans Mountain Pipeline Expansion. Afterwards, we began researching information on the possible impact the expansion
+            would have on the community, the industry, and the environment.<span class="dots">..</span><span class="more"> After gathering the information, we began content writing, and creating infographics to display the information in an easier
+              to understand way. After content writing we
+              began developing a website with HTML/CSS and got constant feedback from our professor on how we could improve, such as including viewpoints from different members of the community. After finalizing our content, we began to make our
+              website fully responsive.</span></p>
+          <input aria-label="showProcess" title="showProcess" type="image" src="img/more_blue.png" class="showButton" alt="Show More Button For Process" id="process">
+        </div>
+      </div>
+    </div>
+
+    <div class="row-empty">
+      <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">ROLE</h2>
+      <div class="flex-container" id="roleSection2">
+        <div class="block1 block" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+          <p>In this project, I was responsible for the overall art direction of the website, as I picked the typeface, color palette, and designed the layout.<span class="dots">..</span><span class="more"> I was in charge of creating the wireframe
+              on Sketch. I created layouts for multiple
+              devices ranging from a desktop computer to a mobile device. I worked with my partner to code the HTML, and laid out the basic structure of the website, afterwards I took on the task of coding the CSS so that it would follow the
+              original
+              art direction.</span></p>
+          <input aria-label="showRole" title="showRole" type="image" src="img/more_blue.png" class="showButton" alt="Show More Button For Role" id="role">
+
+        </div>
+        <div class="block2 orange" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="300">
+          <img src="img/kinderMorganPic3_lowres.jpg" data-src="img/kinderMorganPic3.png" class="lazyload" alt="Image of Trans Mountain Pipeline Expansion Website Wireframe">
+          <noscript><img src="img/kinderMorganPic3.png" alt="Image of Trans Mountain Pipeline Expansion Website Wireframe"></noscript>
+          <p class="figcaption">Figure 2.1: Wireframe of the website to give an idea as to how the final implementation would look like.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row inverse-orange block" id="reflection" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+      <h2>REFLECTION</h2>
+      <p>Working on developing a website that was geared towards a wide audience, helped me think about keeping the content unbiased.<span class="dots">..</span><span class="more"> I learned to show both sides of the argument, by presenting the pros
+          and cons of the Trans Mountain Pipeline
+          Expansion. However, researching who the voices behind each side was very difficult, it took my team many hours of scouring through the internet, newspaper articles, and research papers to have a balanced website of perspectives. Looking
+          forward, I hope to continue providing unbiased content, that allows the audience to understand the reasoning behind each side.</span> </p>
+      <input aria-label="showReflection" title="showReflection" type="image" src="img/more_blue.png" class="showButton" alt="Show More Button For Reflection" id="ref">
+
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="flex-container" id="footerContent">
+      <a href="citations.html" class="footerContent">citations</a>
+      <a href="https://github.com/chinaisverybig/Portfolio" class="footerContent">github repository</a>
+      <a href="styleguide.html" class="footerContent">style guide</a>
+      <p id="copyright"> terence liu © 2019</p>
+    </div>
+  </footer>
+
+  <script src="js/lazysizes.min.js"></script>
+  <script src="js/show.js"></script>
+  <script src="js/back.js"></script>
+  <script src="js/goUp.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    showMoreFunction();
+  </script>
+
+</body>
+
+</html>

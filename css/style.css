@@ -649,7 +649,7 @@ footer {
 }
 
 .aqua {
-  background-color: #B4DFE5;
+  background-color: #d9f8f9;
   transition: background-color 1s ease;
 }
 
@@ -661,6 +661,10 @@ footer {
 .orange {
   background-color: #F4976C;
   transition: background-color 1s ease;
+}
+
+.inverse-orange {
+  border: solid 0.2rem #F4976C;
 }
 
 .inverse-blue {
@@ -688,12 +692,16 @@ footer {
   transform: scale(1.2);
 }
 
-#numeroUnoProject .orange:hover, #numeroUnoProject .orange:focus {
-  background-color: #f7ac8a;
+#compassProject .orange:hover, #compassProject .orange:focus {
+  background-color: #F58757;
+}
+
+#numeroUnoProject .yellow:hover, #numeroUnoProject .yellow:focus {
+  background-color: #FDFB9A;
 }
 
 #kinderMorganProject .aqua:hover, #kinderMorganProject .aqua:focus {
-  background-color: #d9f8f9;
+  background-color: #B4DFE5;
 }
 
 /* justify content makes sure that the content takes up the same amount of space within the footer */
